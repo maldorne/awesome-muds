@@ -30,7 +30,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [GMCP, MCCP, MSDP, MSLP, MSSP, MTTS, MMCP, NAWS]
 - [KildClient](https://www.kildclient.org) [Linux, Windows], [SSL, MCCP, MCCP2, MudMaster, zChat]
 - [TinyFugue](https://tinyfugue.sourceforge.net/) [Linux, MacOS, Windows], [MCCP]
-- [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [GMCP, ATCP]
+- [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [Linux, MacOS, Windows], [GMCP, ATCP]
 
 ### Windows
 
