@@ -91,45 +91,54 @@ Displays both client and server side text interfaces.
 
 ### GMCP
 
-Generic Mud Communication Protocol.
+**Generic Mud Communication Protocol**.
 
 ### MCCP
 
-Mud Client Compression Protocol version 2 and 3. [MUSHclient notes](http://www.gammon.com.au/mushclient/mccp.htm).
-There are two RFCs about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html).
+**Mud Client Compression Protocol** version 2 and 3. 
+
+- [MUSHclient notes](http://www.gammon.com.au/mushclient/mccp.htm).
+- There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html).
 
 ### MSDP
 
-Mud Server Data Protocol.
+**Mud Server Data Protocol**.
 
 ### MSLP
 
-Mud Server Link Protocol. Allows the creation of clickable links client side as well.
+**Mud Server Link Protocol**. Allows the creation of clickable links client side as well.
 
 ### MSSP
 
-Mud Server Status Protocol.
+**Mud Server Status Protocol**.
 
 ### MTTS
 
-Mud Terminal Type Standard.
+**Mud Terminal Type Standard**.
 
 ### MMCP
 
-Mud Master Chat Protocol for instant messaging and file transfers over private P2P connections.
+**Mud Master Chat Protocol** for instant messaging and file transfers over private P2P connections.
 
 ### MXP
 
-MUD eXtension Protocol. [Zuggsoft specification](http://www.zuggsoft.com/zmud/mxp.htm). [MUSHclient complimentary notes](http://www.gammon.com.au/mushclient/mxp.htm).
+**MUD eXtension Protocol**.
+
+- [Zuggsoft specification](http://www.zuggsoft.com/zmud/mxp.htm). 
+- [MUSHclient complimentary notes](http://www.gammon.com.au/mushclient/mxp.htm).
 
 ### MSP
 
-MUD Sound Protocol. [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
+**MUD Sound Protocol**.
+
+- [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
 
 ### MudMaster
 
-Chat format. [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
+**Chat format**.
+
+- [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
 
 ### zChat
 
-Chat format.
+**Chat format**.
