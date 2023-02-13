@@ -195,3 +195,18 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 - [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
 
+## Community
+
+- [r/MUD](https://www.reddit.com/r/MUD). Reddit's MUD subreddit.
+- [Mud Portal](http://www.mudportal.com/). MUD listing and forums.
+- [Mud Bytes](http://www.mudbytes.net/). MUD listing and forums.
+- [Top Mud Sites](http://www.topmudsites.com/). Defunct MUD listing, now read-only.
+- [The Mud Connector](http://www.mudconnect.com/). MUD listing.
+- [MudVerse](https://www.mudverse.com). MUD listing.
+- [Grapevine](https://grapevine.haus/). MUD listing and web client.
+- [Game Scry](https://game-scry.online/browse/mud/?ord=popular). MUD listing.
+- [The MUD Coders Guild](https://mudcoders.com). Slack community.
+- [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
+- [Titans of Text](https://www.titansoftext.com/). Podcast (defunct?).
+- [Mudhalla](https://mudhalla.net/). Home of the tintin client, MUD listing, protocols documentation.
+- [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page). Protocols documentation.
