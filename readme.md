@@ -37,11 +37,13 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 - [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient)
 - [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) [MXP, MSP, MCP, MCCP, ATCP]
-- [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=65) (free trial, paid app, last version of CMUD precursor) [MXP, MCP, MCCP]
-- [zMUD 3.62](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=18) (last free version of zMUD, very old)
+- [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) [MXP, MCP, MCCP]
+- [zMUD 3.62](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=18) (last free version of zMUD, very old, unmaintained)
 - [Portal](http://gameaxle.com/)
 - [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [MXP, MCCP, MMCP, MTTS]
 - [BeipMU](https://beipdev.github.io/BeipMU/) [TLS, MCMP]
+- [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained)
+- [GMud32](https://valiant8086.com/games/muds/gmud/) (very old, unmaintained)
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (generic telnet and ssh client, without MUD features)
 
 ### MacOS
@@ -199,7 +201,17 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ## Community
 
+### Discussion
+
 - [r/MUD](https://www.reddit.com/r/MUD). Reddit's MUD subreddit.
+- [The MUD Coders Guild](https://mudcoders.com). Slack community.
+
+### Player competition
+
+- [Deathlogs](https://deathlogs.com/). MUD PvP logs.
+
+### MUD listings
+
 - [Mud Portal](http://www.mudportal.com/). MUD listing and forums.
 - [Mud Bytes](http://www.mudbytes.net/). MUD listing and forums.
 - [Top Mud Sites](http://www.topmudsites.com/). Defunct MUD listing, now read-only.
@@ -207,8 +219,18 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 - [MudVerse](https://www.mudverse.com). MUD listing.
 - [Grapevine](https://grapevine.haus/). MUD listing and web client.
 - [Game Scry](https://game-scry.online/browse/mud/?ord=popular). MUD listing.
-- [The MUD Coders Guild](https://mudcoders.com). Slack community.
+
+### Links
+
 - [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
-- [Titans of Text](https://www.titansoftext.com/). Podcast (defunct?).
+
+### Technical Documentation
+
 - [Mudhalla](https://mudhalla.net/). Home of the tintin client, MUD listing, protocols documentation.
 - [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page). Protocols documentation.
+
+### Others
+
+- [Titans of Text](https://www.titansoftext.com/). Podcast (defunct?).
+- [50 Years of Text Games](https://if50.substack.com/). The original content of the book about text games, first published as a newsletter in Substack, free to read.
+
