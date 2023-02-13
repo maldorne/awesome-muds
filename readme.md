@@ -21,7 +21,7 @@ If you want to add anything to this list, please [open an issue](https://opensou
 
 ## Clients
 
-List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of MUD protocols the client is compatible with (although can be an incomplete list, help is welcome!)
+List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of MUD protocols the client is compatible with (*although it can be an incomplete list, help is welcome!*)
 
 ### Multiplatform
 
@@ -51,6 +51,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 ### Linux
 
 - [GnomeMUD](https://gitlab.gnome.org/GNOME/gnome-mud) [MSP, MCCP2]
+- [KMuddy](http://www.kmuddy.com/) [MCCP, MSP, MXP]
 
 ### Mobile
 
@@ -166,11 +167,13 @@ There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.or
 
 #### zChat
 
-Chat format.
+Chat format. Similar to [MMCP](#mmcp) but not compatible.
+
+- [Zuggsoft specification](https://www.zuggsoft.com/zchat/zchatprot.htm).
 
 #### GSGP 
 
-[*Game Scry Game Protocol*](https://game-scry.online/about). GSGP is a standardized JSON structure which you can make available for GameScry or other sites to ping for real-time data about a game, its active players, leaderboards, etc.
+[*Game Scry Game Protocol*](https://game-scry.online/about). GSGP is a standardized JSON structure which you can make available for GameScry or other sites to ping for real-time data about a game, its active players, leaderboards, etc. See also [MSSP](#mssp).
 
 #### ATCP
 
@@ -181,7 +184,6 @@ Chat format.
 Similar to ATCP, Aardwolf includes a hidden channel of information that you can access.
 
 - [Mudlet documentation](https://wiki.mudlet.org/w/Manual:Supported_Protocols#Aardwolf.E2.80.99s_102_subchannel)
-
 
 #### MNES
 
