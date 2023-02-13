@@ -25,12 +25,13 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [GMCP, MSSP, MSP, ATCP, Aardwolfs 102, MSDP, MXP]
+- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [GMCP, MSSP, MSP, ATCP, Aardwolf's 102, MSDP, MXP]
 - [Blightmud](https://github.com/LiquidityC/Blightmud) [Linux, MacOS], [TLS, GMCP, MSDP, MCCP2]
-- [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [GMCP, MCCP, MSDP, MSLP, MSSP, MTTS, MMCP, NAWS]
-- [KildClient](https://www.kildclient.org) [Linux, Windows], [SSL, MCCP, MCCP2, MudMaster, zChat]
+- [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [GMCP, MCCP, MCCP3, MSDP, MSLP, MSSP, MTTS, MMCP, NAWS, MNES]
+- [KildClient](https://www.kildclient.org) [Linux, Windows], [SSL, MCCP, MCCP2, MMCP, zChat]
 - [TinyFugue](https://tinyfugue.sourceforge.net/) [Linux, MacOS, Windows], [MCCP]
 - [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [Linux, MacOS, Windows], [GMCP, ATCP]
+- [AxMud](https://axmud.sourceforge.io/) [Linux, Windows], [MXP, GMCP, MSDP, MNES, MTTS]
 
 ### Windows
 
@@ -39,7 +40,8 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=65) (free trial, paid app, last version of CMUD precursor) [MXP, MCP, MCCP]
 - [zMUD 3.62](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=18) (last free version of zMUD, very old)
 - [Portal](http://gameaxle.com/)
-- [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [MXP, MCCP]
+- [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [MXP, MCCP, MMCP, MTTS]
+- [BeipMU](https://beipdev.github.io/BeipMU/) [TLS, MCMP]
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (generic telnet and ssh client, without MUD features)
 
 ### MacOS
@@ -57,7 +59,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Web Clients
 
-- [MudPortal](https://github.com/plamzi/MUDPortal-Web-App) (web client and proxy server ws/telnet) [MCCP, MXP, MSDP, GMCP, ATCP]
+- [MudPortal](https://github.com/plamzi/MUDPortal-Web-App) (web client and proxy server ws/telnet) [MCCP, MXP, MSDP, GMCP, ATCP, MTTS]
 - [mud-web-client](https://github.com/maldorne/mud-web-proxy/) (fork from MudPortal, just the web client, updated to allow wss)
 - Mudslinger ([fork](https://github.com/ryanberckmans/mudslinger), [fork](https://github.com/Xiija/mudslinger)) (original code seems to be gone, the links are forks) (web client and proxy server) [MXP]
 - [Grapevine](https://github.com/oestrich/grapevine)
@@ -70,6 +72,8 @@ Server apps that allow a web client to connect to a mud/telnet server:
 - [websocket-to-tcp-tunnel](https://github.com/ChatTheatre/websocket-to-tcp-tunnel) (ChatTheatre proxy server, ws/telnet)
 
 ## Protocols 
+
+Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [protocols supported](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
 
 ### Generic protocols for remote connections
 
@@ -91,36 +95,55 @@ Displays both client and server side text interfaces.
 
 ### Specific protocols for MUDs
 
+There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html). Some of the next protocols are implemented as telnet options, expanding on these two.
+
 #### GMCP
 
-*Generic Mud Communication Protocol*.
+*Generic Mud Communication Protocol*. GMCP is implemented as a Telnet option. Uses JSON syntax to define structured and typed data.
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/gmcp/).
+- [IronRealms documentation](https://www.ironrealms.com/gmcp-doc).
+- [IronRealms Nexus documentation](https://nexus.ironrealms.com/GMCP).
+- [GMCP Additions](https://github.com/keneanung/GMCPAdditions).
+- [Mudlet documentation for Discord](https://wiki.mudlet.org/w/Standards:Discord_GMCP).
 
 #### MCCP
 
-*Mud Client Compression Protocol* version 2 and 3. 
+*Mud Client Compression Protocol* version 2 and 3. MCCP2 is implemented as a Telnet option. Allows a MUD server to compress output to the receiving client using the zlib compression library. Created in 1998, MCCP version 2 was created in 2000. In 2019 MCCP version 3 was created as a separate protocol.
 
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/mccp/)
 - [MUSHclient notes](http://www.gammon.com.au/mushclient/mccp.htm).
-- There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html).
 
 #### MSDP
 
-*Mud Server Data Protocol*.
+*Mud Server Data Protocol*. MSDP is implemented as a Telnet option. Developed in 2009, provides a standardized way to define typeless variables, arrays, tables, and commands. MSDP over [GMCP](#gmcp) offers standardized generic event handling besides sending structured data.
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/msdp/).
 
 #### MSLP
 
-*Mud Server Link Protocol*. Allows the creation of clickable links client side as well.
+*Mud Server Link Protocol*. Allows the creation of clickable links in the client side. MSLP is negotiated by using the [MTTS](#mtts) standard.
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/mslp/).
 
 #### MSSP
 
-*Mud Server Status Protocol*.
+*Mud Server Status Protocol*. MSSP is implemented as a Telnet option. Protocol for MUD crawlers to gather detailed information about a MUD, including dynamic information like boot time and the current amount of online players. See also [GSGP](#gsgp).
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/mssp/)
+- [MudVerse info about the protocol](https://www.mudverse.com/mssp).
 
 #### MTTS
 
-*Mud Terminal Type Standard*.
+*Mud Terminal Type Standard*. Transparant and straight forward standard for Mud Clients to communicate their terminal capabilities. See also [MNES](#mnes).
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/mtts/).
 
 #### MMCP
 
-*Mud Master Chat Protocol* for instant messaging and file transfers over private P2P connections.
+*Mud Master Chat Protocol* for instant messaging and file transfers over private P2P connections. Is a decentralized chat protocol which allows MUD clients to communicate with each other over a TCP/IP connection.
+
+- [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
 
 #### MXP
 
@@ -135,12 +158,40 @@ Displays both client and server side text interfaces.
 
 - [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
 
-#### MudMaster
+#### MCMP
 
-Chat format.
+*MUD Client Media Protocol*. A standard for loading, playing and stopping media files with MUD clients over GMCP.
 
-- [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
+- [Mudlet documentation](https://wiki.mudlet.org/w/Standards:MUD_Client_Media_Protocol).
 
 #### zChat
 
 Chat format.
+
+#### GSGP 
+
+[*Game Scry Game Protocol*](https://game-scry.online/about). GSGP is a standardized JSON structure which you can make available for GameScry or other sites to ping for real-time data about a game, its active players, leaderboards, etc.
+
+#### ATCP
+
+*Achaea Telnet Client Protocol*. Using TELNET code 200, was implemented by cMUD in 2008. In 2010 evolved to ATCP2 using TELNET code 201. Was later renamed to [GMCP](#gmcp). Achaea, Aardwolf, MUME, Avatar, Gensis, and MUSHclient provide package definitions modeled after the ATCP2 draft.
+
+#### Aardwolf's 102
+
+Similar to ATCP, Aardwolf includes a hidden channel of information that you can access.
+
+- [Mudlet documentation](https://wiki.mudlet.org/w/Manual:Supported_Protocols#Aardwolf.E2.80.99s_102_subchannel)
+
+
+#### MNES
+
+*Mud New Environment Standard*. Implemented as a Telnet option. Seeks to supplement [MTTS](#mtts) by providing a straightforward way to use the NEW-ENVIRON telnet option to exchange and update various client and server settings.
+
+- [Tintin documentation](https://tintin.mudhalla.net/protocols/mnes/).
+
+#### MMP
+
+*Mud Mapping Protocol*. IronRealms protocol as a way to export our in game map data so that clients (or players) can easily access and download this data.
+
+- [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
+
