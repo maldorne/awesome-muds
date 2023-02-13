@@ -69,76 +69,78 @@ Server apps that allow a web client to connect to a mud/telnet server:
 - [mud-web-proxy](https://github.com/maldorne/mud-web-proxy/) (fork from MudPortal, just the proxy server, updated to allow wss/telnet)
 - [websocket-to-tcp-tunnel](https://github.com/ChatTheatre/websocket-to-tcp-tunnel) (ChatTheatre proxy server, ws/telnet)
 
-## Protocols (generic protocols for remote connections)
+## Protocols 
 
-### Character Mode
+### Generic protocols for remote connections
+
+#### Character Mode
 
 Directly transmit the mud client's input, required for BBSes, \*NIX servers, Roguelike MUDs, and interaction with other console software.
 
-### TELNET
+#### TELNET
 
 Connect to \*NIX servers and BBSes using TELOPT negotiations.
 
-### VT100
+#### VT100
 
 Displays both client and server side text interfaces.
 
-### NAWS
+#### NAWS
 
 **Negotiate About Window Size**. Sends the mud client's window size to the server. [RFC 1073](https://www.rfc-editor.org/rfc/rfc1073).
 
-## Protocols (specific protocols for MUDs)
+### Specific protocols for MUDs
 
-### GMCP
+#### GMCP
 
 **Generic Mud Communication Protocol**.
 
-### MCCP
+#### MCCP
 
 **Mud Client Compression Protocol** version 2 and 3. 
 
 - [MUSHclient notes](http://www.gammon.com.au/mushclient/mccp.htm).
 - There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html).
 
-### MSDP
+#### MSDP
 
 **Mud Server Data Protocol**.
 
-### MSLP
+#### MSLP
 
 **Mud Server Link Protocol**. Allows the creation of clickable links client side as well.
 
-### MSSP
+#### MSSP
 
 **Mud Server Status Protocol**.
 
-### MTTS
+#### MTTS
 
 **Mud Terminal Type Standard**.
 
-### MMCP
+#### MMCP
 
 **Mud Master Chat Protocol** for instant messaging and file transfers over private P2P connections.
 
-### MXP
+#### MXP
 
 **MUD eXtension Protocol**.
 
 - [Zuggsoft specification](http://www.zuggsoft.com/zmud/mxp.htm). 
 - [MUSHclient complimentary notes](http://www.gammon.com.au/mushclient/mxp.htm).
 
-### MSP
+#### MSP
 
 **MUD Sound Protocol**.
 
 - [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
 
-### MudMaster
+#### MudMaster
 
 **Chat format**.
 
 - [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
 
-### zChat
+#### zChat
 
 **Chat format**.
