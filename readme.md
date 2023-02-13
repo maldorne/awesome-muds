@@ -21,7 +21,7 @@ If you want to add anything to this list, please [open an issue](https://opensou
 
 ## Clients
 
-List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of MUD protocols the client is compatible with (*although it can be an incomplete list, help is welcome!*)
+List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of [MUD protocols](#protocols) the client is compatible with (*although it can be an incomplete list, help is welcome!*)
 
 ### Multiplatform
 
