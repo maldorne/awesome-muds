@@ -17,6 +17,7 @@ If you want to add anything to this list, please [open an issue](https://opensou
 - [Codebases and drivers](#codebases)
 - [Tools](#tools)
 - [Protocols](#protocols)
+- [People](#people)
 - [Community](#community)
 
 ## Clients
@@ -73,6 +74,39 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 - [mud-web-proxy](https://github.com/maldorne/mud-web-proxy/) (fork from MudPortal, just the proxy server, updated to allow wss/telnet)
 - [websocket-to-tcp-tunnel](https://github.com/ChatTheatre/websocket-to-tcp-tunnel) (ChatTheatre proxy server, ws/telnet)
+
+## Codebases and drivers
+
+[MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1), created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle, in _families_ of related games, mainly based in the technologies used to implement them.
+
+- [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
+
+### AberMUD
+
+Created in 1987 at the Aberystwyth University, was the first popular open source MUD. Ported to C in 1988 in AberMUD2, and published as GPL in AberMUD V. It inspired the next three major codebases: [TinyMUD](#TinyMUD), [LPMud](#LPMud) and [DikuMUD](#DikuMUD.
+
+- [Family tree](https://en.wikipedia.org/wiki/MUD_trees#AberMUD_family_tree).
+- [Some documentation and source code](http://ftp.linux.org.uk/pub/linux/alan/Software/Games/AberMUD5/) for AberMUD5 in http://ftp.linux.org.uk.
+
+### TinyMUD
+
+- [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
+
+### LPMud
+
+- [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
+
+### DikuMUD
+
+Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*Datalogisk Institut Københavns Universitet*) —the department of computer science at the University of Copenhagen- in Copenhagen, Denmark.  
+
+- [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
+- [DikuMUD.com](https://dikumud.com/)
+- [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma), the original release.
+- [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), LGPL license.
+- [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), LGPL license.
+- [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3), using HTML, websockets and Discord integration, being worked on, LGPL license.
+- [DikuMUD Wiki](https://wiki.dikumud.net/).
 
 ## Protocols 
 
@@ -199,6 +233,13 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 - [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
 
+## People
+
+Roy Trubshaw
+Richard Bartle
+Alan Cox
+Michael Seifert
+
 ## Community
 
 ### Discussion
@@ -222,7 +263,9 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ### Links
 
+- [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page). 
 - [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
+- [MUD historical society](https://github.com/mudhistoricalsociety) is a github organization with a lot of repositories of old codebases.
 
 ### Technical Documentation
 
