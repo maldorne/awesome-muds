@@ -101,7 +101,7 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.  
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
-- [DikuMUD.com](https://dikumud.com/)
+- [DikuMUD.com](https://dikumud.com/).
 - [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma), the original release.
 - [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), LGPL license.
 - [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), LGPL license.
@@ -235,17 +235,18 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ## People
 
-Roy Trubshaw
-Richard Bartle
-Alan Cox
-Michael Seifert
+- Roy Trubshaw
+- Richard Bartle
+- Alan Cox
+- Michael Seifert
 
 ## Community
 
 ### Discussion
 
-- [r/MUD](https://www.reddit.com/r/MUD). Reddit's MUD subreddit.
-- [The MUD Coders Guild](https://mudcoders.com). Slack community.
+- [r/MUD](https://www.reddit.com/r/MUD), Reddit's MUD subreddit.
+- [The MUD Discord](https://discord.gg/zuz4D8s).
+- [The MUD Coders Guild](https://mudcoders.com), 2016-2020 blog and Slack community.
 
 ### Player competition
 
@@ -253,27 +254,27 @@ Michael Seifert
 
 ### MUD listings
 
-- [Mud Portal](http://www.mudportal.com/). MUD listing and forums.
-- [Mud Bytes](http://www.mudbytes.net/). MUD listing and forums.
-- [Top Mud Sites](http://www.topmudsites.com/). Defunct MUD listing, now read-only.
-- [The Mud Connector](http://www.mudconnect.com/). MUD listing.
-- [MudVerse](https://www.mudverse.com). MUD listing.
-- [Grapevine](https://grapevine.haus/). MUD listing and web client.
-- [Game Scry](https://game-scry.online/browse/mud/?ord=popular). MUD listing.
+- [Mud Portal](http://www.mudportal.com/), MUD listing and forums.
+- [Mud Bytes](http://www.mudbytes.net/), MUD listing and forums.
+- [Top Mud Sites](http://www.topmudsites.com/), Defunct MUD listing, now read-only.
+- [The Mud Connector](http://www.mudconnect.com/), MUD listing.
+- [MudVerse](https://www.mudverse.com), MUD listing.
+- [Grapevine](https://grapevine.haus/), MUD listing and web client.
+- [Game Scry](https://game-scry.online/browse/mud/?ord=popular), MUD listing.
 
 ### Links
 
-- [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page). 
+- [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page) in fandom.com.
 - [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
 - [MUD historical society](https://github.com/mudhistoricalsociety) is a github organization with a lot of repositories of old codebases.
 
 ### Technical Documentation
 
-- [Mudhalla](https://mudhalla.net/). Home of the tintin client, MUD listing, protocols documentation.
+- [Mudhalla](https://mudhalla.net/), home of the Tintin client, MUD listing, protocols documentation.
 - [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page). Protocols documentation.
 
 ### Others
 
-- [Titans of Text](https://www.titansoftext.com/). Podcast (defunct?).
-- [50 Years of Text Games](https://if50.substack.com/). The original content of the book about text games, first published as a newsletter in Substack, free to read.
+- [Titans of Text](https://www.titansoftext.com/), podcast, 33 episodes during 2019-2020.
+- [50 Years of Text Games](https://if50.substack.com/), the original content of the book about text games, first published as a newsletter in Substack, free to read.
 
