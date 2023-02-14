@@ -98,7 +98,7 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 
 ### DikuMUD
 
-Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*Datalogisk Institut Københavns Universitet*) —the department of computer science at the University of Copenhagen- in Copenhagen, Denmark.  
+Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.  
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 - [DikuMUD.com](https://dikumud.com/)
