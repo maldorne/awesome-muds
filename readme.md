@@ -262,13 +262,13 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ### MUD listings
 
-- [Mud Portal](http://www.mudportal.com/), MUD listing and forums.
-- [Mud Bytes](http://www.mudbytes.net/), MUD listing and forums.
-- [Top Mud Sites](http://www.topmudsites.com/), Defunct MUD listing, now read-only.
-- [The Mud Connector](http://www.mudconnect.com/), MUD listing.
-- [MudVerse](https://www.mudverse.com), MUD listing.
 - [Grapevine](https://grapevine.haus/), MUD listing and web client.
 - [Game Scry](https://game-scry.online/browse/mud/?ord=popular), MUD listing.
+- [Mud Portal](http://www.mudportal.com/), MUD listing and forums.
+- [Mud Bytes](http://www.mudbytes.net/), MUD listing and forums.
+- [Top Mud Sites](http://www.topmudsites.com/), defunct MUD listing, now read-only.
+- [The Mud Connector](http://www.mudconnect.com/), MUD listing.
+- [MudVerse](https://www.mudverse.com), MUD listing.
 
 ### Links
 
