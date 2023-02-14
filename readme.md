@@ -49,7 +49,8 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### MacOS
 
-- [Atlantis](https://riverdark.net/atlantis/) 
+- [Atlantis](https://riverdark.net/atlantis/)
+- [MudWalker](http://mudwalker.cubik.org/) (very old, unmaintained) [MCP]
 
 ### Linux
 
@@ -67,6 +68,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [mud-web-client](https://github.com/maldorne/mud-web-proxy/) (fork from MudPortal, just the web client, updated to allow wss)
 - Mudslinger ([fork](https://github.com/ryanberckmans/mudslinger), [fork](https://github.com/Xiija/mudslinger)) (original code seems to be gone, the links are forks) (web client and proxy server) [MXP]
 - [Grapevine](https://github.com/oestrich/grapevine)
+- [DecafMUD](https://github.com/stendec/DecafMUD/) (very old, unmaintained)
 
 ### Web Proxies
 
@@ -143,6 +145,12 @@ There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.or
 - [IronRealms Nexus documentation](https://nexus.ironrealms.com/GMCP).
 - [GMCP Additions](https://github.com/keneanung/GMCPAdditions).
 - [Mudlet documentation for Discord](https://wiki.mudlet.org/w/Standards:Discord_GMCP).
+
+#### MCP
+
+*Mud Client Protocol*. An attempt to provide a standard message format on which to build MUD-based client-server applications.
+
+- [LambdaMOO documentation](http://www.moo.mud.org/mcp/index.html).
 
 #### MCCP
 
