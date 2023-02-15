@@ -7,7 +7,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might want to read the complete [awesome](https://github.com/sindresorhus/awesome) list.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -108,7 +108,7 @@ Main variations: PennMUSH, TinyMUSH, [TinyMUX](http://www.tinymux.org/) and [Rho
 #### [TinyMUCK](https://en.wikipedia.org/wiki/TinyMUCK)
 
 - [MUCK Manual](http://www.rdwarf.com/users/mink/muckman/) ([alt link](https://fuzzball-muck.github.io/muckman/)).
-- [Fuzzball MUCK server](https://github.com/fuzzball-muck/fuzzball)
+- [Fuzzball MUCK server](https://github.com/fuzzball-muck/fuzzball) source code.
 
 #### [MOO](https://en.wikipedia.org/wiki/MOO)
 
@@ -117,7 +117,7 @@ Derived from TinyMUCK, with object oriented design.
 - [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis.
 - [Stunt](http://stunt.io/), a set of extensions to the LambdaMOO server.
 - [ToastStunt](https://github.com/lisdude/toaststunt), forked from stunt and being worked on.
-- [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming), collects and updates numerous MOO guides in one place, from the original server to ToastStunt. 
+- [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt. 
 
 ### LPMud
 
@@ -266,8 +266,8 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ## People
 
-- Roy Trubshaw, co-creator of [MUD1](#MUD1)
-- [Richard Bartle](https://en.wikipedia.org/wiki/Richard_Bartle), co-creator of [MUD1](https://en.wikipedia.org/wiki/MUD1), writer of [Designing Virtual Worlds](https://mud.co.uk/dvw/). [Personal page](https://mud.co.uk/).
+- Roy Trubshaw, co-creator of [MUD1](#MUD1).
+- [Richard Bartle](https://en.wikipedia.org/wiki/Richard_Bartle), co-creator of [MUD1](#MUD1), writer of [Designing Virtual Worlds](https://mud.co.uk/dvw/). [Personal page](https://mud.co.uk/).
 - [Alan Cox](https://en.wikipedia.org/wiki/Alan_Cox_(computer_programmer)), co-creator of [AberMUD](#AberMUD) and Linux kernel maintainer for several years.
 - [Michael Seifert](https://en.wikipedia.org/wiki/Michael_Seifert_(programmer)), co-creator of [DikuMUD](#DikuMUD).
 - [Pavel Curtis](https://en.wikipedia.org/wiki/Pavel_Curtis), creator of LambdaMOO.
