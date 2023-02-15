@@ -14,7 +14,7 @@ If you want to add anything to this list, please [open an issue](https://opensou
 ## Contents
 
 - [Clients](#clients)
-- [Codebases and drivers](#codebases)
+- [Codebases and drivers](#codebases-and-drivers)
 - [Tools](#tools)
 - [Protocols](#protocols)
 - [People](#people)
@@ -79,7 +79,7 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 ## Codebases and drivers
 
-[MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1), created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle, in _families_ of related games, mainly based in the technologies used to implement them.
+[MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1) (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in _families_ of related games, mainly based in the technologies used to implement them.
 
 - [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
 
@@ -112,7 +112,7 @@ Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*D
 
 ## Protocols 
 
-Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [protocols supported](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
+Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
 
 ### Generic protocols for remote connections
 
