@@ -83,6 +83,9 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 [MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1) (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in _families_ of related games, mainly based in the technologies used to implement them.
 
+- Original [MUD1 source code](https://github.com/PDP-10/MUD1) for the DEC PDP-10 mainframe.
+- Chronology of the [original MUD variants](https://mud.co.uk/richard/incarns.htm), by Richard Bartle.
+- [British Legends](http://www.british-legends.com), home of the MUD1 game.
 - [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
 
 ### AberMUD
@@ -95,6 +98,26 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 ### TinyMUD
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
+
+_MU*_, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK.
+
+#### [MUSH](https://en.wikipedia.org/wiki/MUSH)
+
+Main variations: PennMUSH, TinyMUSH, [TinyMUX](http://www.tinymux.org/) and [RhostMUSH](https://code.google.com/p/rhostmush/).
+
+#### [TinyMUCK](https://en.wikipedia.org/wiki/TinyMUCK)
+
+- [MUCK Manual](http://www.rdwarf.com/users/mink/muckman/) ([alt link](https://fuzzball-muck.github.io/muckman/)).
+- [Fuzzball MUCK server](https://github.com/fuzzball-muck/fuzzball)
+
+#### [MOO](https://en.wikipedia.org/wiki/MOO)
+
+Derived from TinyMUCK, with object oriented design. 
+
+- [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis.
+- [Stunt](http://stunt.io/), a set of extensions to the LambdaMOO server.
+- [ToastStunt](https://github.com/lisdude/toaststunt), forked from stunt and being worked on.
+- [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming), collects and updates numerous MOO guides in one place, from the original server to ToastStunt. 
 
 ### LPMud
 
@@ -243,10 +266,11 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 ## People
 
-- Roy Trubshaw
-- Richard Bartle
-- Alan Cox
-- Michael Seifert
+- Roy Trubshaw, co-creator of [MUD1](#MUD1)
+- [Richard Bartle](https://en.wikipedia.org/wiki/Richard_Bartle), co-creator of [MUD1](https://en.wikipedia.org/wiki/MUD1), writer of [Designing Virtual Worlds](https://mud.co.uk/dvw/). [Personal page](https://mud.co.uk/).
+- [Alan Cox](https://en.wikipedia.org/wiki/Alan_Cox_(computer_programmer)), co-creator of [AberMUD](#AberMUD) and Linux kernel maintainer for several years.
+- [Michael Seifert](https://en.wikipedia.org/wiki/Michael_Seifert_(programmer)), co-creator of [DikuMUD](#DikuMUD).
+- [Pavel Curtis](https://en.wikipedia.org/wiki/Pavel_Curtis), creator of LambdaMOO.
 
 ## Community
 
@@ -285,4 +309,5 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 - [Titans of Text](https://www.titansoftext.com/), podcast, 33 episodes during 2019-2020.
 - [50 Years of Text Games](https://if50.substack.com/), the original content of the book about text games, first published as a newsletter in Substack, free to read.
+- [Terra Nova](https://terranova.blogs.com/terra_nova/), defunct collaborative blog for academics and professionals in game studies, focused primarily on the study of virtual worlds (2003-2014).
 
