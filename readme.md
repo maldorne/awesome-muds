@@ -33,6 +33,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [TinyFugue](https://tinyfugue.sourceforge.net/) [Linux, MacOS, Windows], [MCCP]
 - [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [Linux, MacOS, Windows], [GMCP, ATCP]
 - [AxMud](https://axmud.sourceforge.io/) [Linux, Windows], [MXP, GMCP, MSDP, MNES, MTTS]
+- [Tortilla MUD client](https://github.com/tmud/tortilla) (completely in russian) [Windows XP and above, Linux and MacOS via Wine], [MCCP, MSDP, MTTS]
 
 ### Windows
 
