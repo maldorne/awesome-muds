@@ -80,6 +80,9 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 ## Codebases and drivers
 
+- [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
+- [Online World Timeline](https://www.raphkoster.com/gaming/mudtimeline.shtml) on Raph Koster's web page, shows a chronology of everything related to online worlds, including MUDs.
+
 ### MUD1
 
 [MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1) (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in _families_ of related games, mainly based in the technologies used to implement them.
@@ -87,7 +90,6 @@ Server apps that allow a web client to connect to a mud/telnet server:
 - Original [MUD1 source code](https://github.com/PDP-10/MUD1) for the DEC PDP-10 mainframe.
 - Chronology of the [original MUD variants](https://mud.co.uk/richard/incarns.htm), by Richard Bartle.
 - [British Legends](http://www.british-legends.com), home of the MUD1 game.
-- [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
 
 ### AberMUD
 
@@ -97,6 +99,8 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 - [Some documentation and source code](http://ftp.linux.org.uk/pub/linux/alan/Software/Games/AberMUD5/) for AberMUD5 in http://ftp.linux.org.uk.
 
 ### TinyMUD
+
+Released by Jim Aspnes in 1989, running on Unix and written in C. It was originally conceived as a front end to IRC.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
 
@@ -108,12 +112,14 @@ Main variations: PennMUSH, TinyMUSH, [TinyMUX](http://www.tinymux.org/) and [Rho
 
 #### [TinyMUCK](https://en.wikipedia.org/wiki/TinyMUCK)
 
+Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
+
 - [MUCK Manual](http://www.rdwarf.com/users/mink/muckman/) ([alt link](https://fuzzball-muck.github.io/muckman/)).
 - [Fuzzball MUCK server](https://github.com/fuzzball-muck/fuzzball) source code.
 
 #### [MOO](https://en.wikipedia.org/wiki/MOO)
 
-Derived from TinyMUCK, with object oriented design. 
+Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
 
 - [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis.
 - [Stunt](http://stunt.io/), a set of extensions to the LambdaMOO server.
@@ -126,7 +132,7 @@ Derived from TinyMUCK, with object oriented design.
 
 ### DikuMUD
 
-Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.  
+Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.  
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 - [DikuMUD.com](https://dikumud.com/).
