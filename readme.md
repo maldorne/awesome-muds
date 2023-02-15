@@ -104,11 +104,9 @@ Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1991 at DIKU (*D
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 - [DikuMUD.com](https://dikumud.com/).
-- [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma), the original release.
-- [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), LGPL license.
-- [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), LGPL license.
-- [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3), using HTML, websockets and Discord integration, being worked on, LGPL license.
 - [DikuMUD Wiki](https://wiki.dikumud.net/).
+- [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), all with LGPL license.
+- [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3), using HTML, websockets and Discord integration, being worked on, LGPL license.
 
 ## Protocols 
 
