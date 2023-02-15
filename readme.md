@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [Portal](http://gameaxle.com/)
 - [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [MXP, MCCP, MMCP, MTTS]
 - [BeipMU](https://beipdev.github.io/BeipMU/) [TLS, MCMP]
-- [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained)
+- [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) has updated windows versions)
 - [GMud32](https://valiant8086.com/games/muds/gmud/) (very old, unmaintained)
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (generic telnet and ssh client, without MUD features)
 
