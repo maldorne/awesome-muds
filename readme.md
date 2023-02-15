@@ -104,7 +104,7 @@ Released by Jim Aspnes in 1989, running on Unix and written in C. It was origina
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
 
-_MU*_, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK.
+_MU*_, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK. It has [its own wiki](https://mu.fandom.com).
 
 #### [MUSH](https://en.wikipedia.org/wiki/MUSH)
 
