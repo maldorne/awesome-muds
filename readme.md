@@ -103,12 +103,15 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 Released by Jim Aspnes in 1989, running on Unix and written in C. It was originally conceived as a front end to IRC.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
+- [Source code](https://archive.org/details/tinymud-1.5.5) ov v1.5.5 on the Internet Archive.
 
 _MU*_, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK. It has [its own wiki](https://mu.fandom.com).
 
 #### [MUSH](https://en.wikipedia.org/wiki/MUSH)
 
 Main variations: PennMUSH, TinyMUSH, [TinyMUX](http://www.tinymux.org/) and [RhostMUSH](https://code.google.com/p/rhostmush/).
+
+- Lots of code and documentation on [MUSHCode](http://www.mushcode.com/).
 
 #### [TinyMUCK](https://en.wikipedia.org/wiki/TinyMUCK)
 
@@ -121,7 +124,9 @@ Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
 
 Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
 
-- [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis.
+- Documentation in the [moo-cows](http://www.moo-cows.com/) web.
+- List of MOO games in [moolist](http://www.moolist.com/).
+- [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis ([source code in sourceforge](https://sourceforge.net/projects/lambdamoo/)).
 - [Stunt](http://stunt.io/), a set of extensions to the LambdaMOO server.
 - [ToastStunt](https://github.com/lisdude/toaststunt), forked from stunt and being worked on.
 - [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt. 
@@ -140,7 +145,7 @@ Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU 
 - [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), all with LGPL license.
 - [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3), using HTML, websockets and Discord integration, being worked on, LGPL license.
 
-Some well-known derivatives of DikuMUD: [CircleMUD](https://muds.fandom.com/wiki/CircleMUD), [MERC](https://muds.fandom.com/wiki/Merc), [Envy](https://muds.fandom.com/wiki/Envy), [ROM](https://muds.fandom.com/wiki/ROM), [SMAUG](https://muds.fandom.com/wiki/SMAUG), [GodWars](https://muds.fandom.com/wiki/GodWars).
+Some well-known derivatives of DikuMUD: [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) ([web](https://www.circlemud.org/), [source](https://www.circlemud.org/pub/CircleMUD/)), [MERC](https://muds.fandom.com/wiki/Merc), [Envy](https://muds.fandom.com/wiki/Envy), [ROM](https://muds.fandom.com/wiki/ROM), [SMAUG](https://muds.fandom.com/wiki/SMAUG), [GodWars](https://muds.fandom.com/wiki/GodWars).
 
 ## Protocols 
 
