@@ -133,7 +133,21 @@ Written by Stephen White in 1990, derived from TinyMUCK, with object oriented de
 
 ### LPMud
 
+Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the driver/interpreter, trying to make the process of extending the game easier. Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [NannyMUD](https://www.lysator.liu.se/nanny/), [Discworld](http://discworld.starturtle.net), etc.
+
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
+- After Lars Pensjö retired from LPMud development, Joern Rennecke (Amylaar) took over development of the LPMud driver and produced the 3.2 series of LPMud. This is sometimes known as the Amylaar driver.
+- Lars Düning continued the development of the LPMud driver renaming it to [LDMud](http://www.ldmud.eu) (but keeping the Amylaar version numbers, so starting with 3.2.2). LDMud is still [being maintained](https://github.com/ldmud/ldmud).
+- Another group of people started working from the LPMud v3.1.2-A in 1992, and renamed it to MudOS, which will have several versions until 2003. (_mudos.org_, its original webpage is defunct, but you can find some of the last versions in the [maldorne repository](https://github.com/maldorne/mudos), and use them with Docker). It could use sockets at mudlib level (with LPC code), which allowed to create a TCP intermud network. This protocol evolved until [Intermud 3](#Intermud).
+- Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dworkin Game/Generic Driver), not derived from LPMud (so not using the same license) but compatible with LPC language. [Still maintained](https://github.com/dworkin/dgd), and open source since v1.4 (2010).
+- In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos). It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is Yucong Sun ([thefallentree](https://github.com/thefallentree)), releasing major versions with the names FluffOS 2017 and 2019.
+
+Some documentation:
+
+- [LPC documentation](http://www.ldmud.eu/lpc-intro.html) for LDMud.
+- [LPC Basics](https://www.lysator.liu.se/nanny/wiz/lpc/basic/Contents.html) and [Intermediate LPC](https://www.lysator.liu.se/nanny/wiz/lpc/intermediate/Contents.html), written for LPMud by George Reese (Descartes of Borg).
+- [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/), book about LPC for DGD written by [Noah Gibbs](https://codefol.io/).
+
 
 ### DikuMUD
 
@@ -277,6 +291,10 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 *Mud Mapping Protocol*. IronRealms protocol as a way to export our in game map data so that clients (or players) can easily access and download this data.
 
 - [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
+
+#### Intermud
+
+Communication protocol. TO DO.
 
 ## People
 
