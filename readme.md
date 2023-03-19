@@ -196,6 +196,16 @@ Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU 
 
 Some well-known derivatives of DikuMUD: [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) ([web](https://www.circlemud.org/), [source](https://www.circlemud.org/pub/CircleMUD/)), [MERC](https://muds.fandom.com/wiki/Merc), [Envy](https://muds.fandom.com/wiki/Envy), [ROM](https://muds.fandom.com/wiki/ROM), [SMAUG](https://muds.fandom.com/wiki/SMAUG), [GodWars](https://muds.fandom.com/wiki/GodWars).
 
+### Modern drivers
+
+Some information about some modern *drivers/game engines/codebases* created long time after the original _MU*_ games.
+
+#### Evennia
+
+Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime.
+
+- [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia), [discussion forum](https://github.com/evennia/evennia/discussions), [Discord server](https://discord.com/invite/AJJpcRUhtF).
+
 ## Protocols 
 
 Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
