@@ -134,7 +134,7 @@ Written by Stephen White in 1990, derived from TinyMUCK, with object oriented de
 
 ### LPMud
 
-Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the driver/interpreter, trying to make the process of extending the game easier. Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [NannyMUD](https://www.lysator.liu.se/nanny/), [Discworld](http://discworld.starturtle.net), etc.
+Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the *driver/interpreter*, trying to make the process of extending the game easier, separating the Mud in two different parts: the **driver** which acts as a *virtual machine/interpreter/runtime* (programmed in C), and the **mudlib** which implements the game code (programmed in LPC and executed by the *driver*). Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [NannyMUD](https://www.lysator.liu.se/nanny/), [Discworld](http://discworld.starturtle.net), etc.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
 - [LPMud Timeline 1979-1995](http://web.archive.org/web/20121230064031/http://www.rpgmud.com:80/lpmud_timeline.htm), by George Reese (Descartes of Borg), in the now defunct rpgmud.com (link to the *Internet Archive Wayback Machine*). [Stored in this repository](./docs/lpmuds/lpmud-timeline.md).
