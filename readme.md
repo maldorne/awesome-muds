@@ -192,6 +192,7 @@ Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU 
 - [DikuMUD Wiki](https://wiki.dikumud.net/).
 - [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2), all with LGPL license.
 - [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3), using HTML, websockets and Discord integration, being worked on, LGPL license.
+- The [DikuMUD Omnibus Github repository](https://github.com/DikuMUDOmnibus) stores more than a hundred Diku-related software projects.
 
 Some well-known derivatives of DikuMUD: [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) ([web](https://www.circlemud.org/), [source](https://www.circlemud.org/pub/CircleMUD/)), [MERC](https://muds.fandom.com/wiki/Merc), [Envy](https://muds.fandom.com/wiki/Envy), [ROM](https://muds.fandom.com/wiki/ROM), [SMAUG](https://muds.fandom.com/wiki/SMAUG), [GodWars](https://muds.fandom.com/wiki/GodWars).
 
