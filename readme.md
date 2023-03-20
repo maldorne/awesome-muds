@@ -202,7 +202,7 @@ Some information about some modern *drivers/game engines/codebases* created long
 
 #### Evennia
 
-Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime.
+Created by Greg Taylor in 2006, Samuel "Griatch" Regandell took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.
 
 - [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia), [discussion forum](https://github.com/evennia/evennia/discussions), [Discord server](https://discord.com/invite/AJJpcRUhtF).
 
