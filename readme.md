@@ -101,7 +101,7 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 
 ### TinyMUD
 
-Released by Jim Aspnes in 1989, running on Unix and written in C. It was originally conceived as a front end to IRC.
+Released by Jim Aspnes in 1989, running on Unix and written in C.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
 - [Source code](https://archive.org/details/tinymud-1.5.5) ov v1.5.5 on the Internet Archive.
