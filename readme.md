@@ -208,7 +208,9 @@ Created by Greg Taylor in 2006, Samuel "Griatch" Regandell took over the project
 
 ## Protocols 
 
-Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
+- Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). 
+- The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
+- CryoSphere MUD has a [page about MUD client/server interaction](http://cryosphere.net/mud-protocol.html) with some more useful information.
 
 ### Generic protocols for remote connections
 
