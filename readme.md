@@ -53,6 +53,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 - [Atlantis](https://riverdark.net/atlantis/)
 - [MudWalker](http://mudwalker.cubik.org/) (very old, unmaintained) [MCP]
+- [MudClient.app](https://mudclient.app/) (free trial, paid app) [MCCP]
 
 ### Linux
 
