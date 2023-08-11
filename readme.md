@@ -373,6 +373,7 @@ Communication protocol. TO DO.
 - [Top Mud Sites](http://www.topmudsites.com/), defunct MUD listing, now read-only.
 - [The Mud Connector](http://www.mudconnect.com/), MUD listing.
 - [MudVerse](https://www.mudverse.com), MUD listing.
+- [MUD MSSP Stats](https://iberia.jdai.pt/mudstats/mudlist), new listing using MUDs [MSSP](./#MSSP) protocol information.
 
 ### Links
 
