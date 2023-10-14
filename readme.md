@@ -105,7 +105,7 @@ Created in 1987 at the Aberystwyth University, was the first popular open source
 Released by Jim Aspnes in 1989, running on Unix and written in C.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
-- [Source code](https://archive.org/details/tinymud-1.5.5) ov v1.5.5 on the Internet Archive.
+- [Source code](https://archive.org/details/tinymud-1.5.5) of v1.5.5 on the Internet Archive.
 
 _MU*_, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK. It has [its own wiki](https://mu.fandom.com).
 
