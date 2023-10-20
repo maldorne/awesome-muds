@@ -68,10 +68,10 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 Links to old abandoned open source mud client projects, maybe something useful in there:
 
-- [MudWalker](http://mudwalker.cubik.org/) (very old, unmaintained) [MacOS] [MCP]
-- [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained) [Linux, MacOS, Windows] [MCCP]
-- [Lyntin](https://lyntin.sourceforge.net/) (unmaintained) [Made in Python, probably multiplatform]
-- [XpertMud](https://xpertmud.sourceforge.net/) (unmaintained) [Linux, Windows]
+- [MudWalker](http://mudwalker.cubik.org/) (unmaintained, abandoned) [MacOS] [MCP]
+- [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained, abandoned) [Linux, MacOS, Windows] [MCCP]
+- [Lyntin](https://lyntin.sourceforge.net/) (unmaintained, abandoned) [Made in Python, probably multiplatform]
+- [XpertMud](https://xpertmud.sourceforge.net/) (unmaintained, abandoned) [Linux, Windows]
 
 ### Web Clients
 
