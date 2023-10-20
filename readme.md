@@ -35,7 +35,6 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [AxMud](https://axmud.sourceforge.io/) [Linux, Windows], [MXP, GMCP, MSDP, MNES, MTTS]
 - [Tortilla MUD client](https://github.com/tmud/tortilla) (completely in russian) [Windows XP and above, Linux and MacOS via Wine], [MCCP, MSDP, MTTS]
 - [KBTin](https://github.com/kilobyte/kbtin) (Tintin++ fork) [Linux, MacOS, BSD] [MCCP, TLS]
-- [GGMud](http://www.ggsoft.org/ggmud/) [Linux, MacOS, Windows] [MCCP]
 
 ### Windows
 
@@ -53,7 +52,6 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 ### MacOS
 
 - [Atlantis](https://riverdark.net/atlantis/)
-- [MudWalker](http://mudwalker.cubik.org/) (very old, unmaintained) [MCP]
 - [MudClient.app](https://mudclient.app/) (free trial, paid app) [MCCP]
 
 ### Linux
@@ -65,6 +63,15 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 - [BlowTorch](https://bt.happygoatstudios.com/) [Android], [MCCP]
 - [MUDRammer](https://github.com/splinesoft/MUDRammer) [iOS]
+
+### Abandoned projects
+
+Links to old abandoned open source mud client projects, maybe something useful in there:
+
+- [MudWalker](http://mudwalker.cubik.org/) (very old, unmaintained) [MacOS] [MCP]
+- [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained) [Linux, MacOS, Windows] [MCCP]
+- [Lyntin](https://lyntin.sourceforge.net/) (unmaintained) [Made in Python, probably multiplatform]
+- [XpertMud](https://xpertmud.sourceforge.net/) (unmaintained) [Linux, Windows]
 
 ### Web Clients
 
