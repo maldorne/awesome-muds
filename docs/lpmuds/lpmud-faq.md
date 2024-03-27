@@ -802,7 +802,7 @@ Some people have a favourite mudlib, and therefore go at building their own mud 
 
 _Note:_ Also, I only publish software which the authors have somehow made known to me to be available, or in fact are widely known to be available. I will not publish information about software which I have no such verification, since being on a public ftp site is not the same as being publically available.
 
-                                  Servers
+Servers
 
  * CD
 
@@ -1084,35 +1084,35 @@ _________________________________________________________________
 These are the ports of which I am aware:
 
   * AmigaOS
-  
+
     DGD, LPMud 3.2, 3.2.1, MudOS
          
   * Atari
-  
+
     DGD, LPMud 3.2, 3.2.1
          
   * BeOS
-  
+
     DGD
          
   * System 6
-  
+
     MacMUD (which is LPMud 3.1.2), DGD
          
   * MacOS
-  
+
     MacMUD, DGD
          
   * OS/2
-  
+
     DGD, LPMud 3.2, 3.2.1, MudOS
          
   * Windows 95
-  
+
     DGD, MudOS
          
   * Windows NT
-  
+
     DGD, MudOS
 
 _________________________________________________________________
