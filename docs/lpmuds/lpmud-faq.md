@@ -187,12 +187,16 @@ _________________________________________________________________
 The following is a list of LPMud related WWW URL's, a few of which are even written in the mud programming language LPC:
  
  * http://www.bat.org
+
    The BatMUD WWW Server
  * http://www.lostsouls.org
+
    The Lost Souls WWW Server
  * http://www.imaginary.com
+
    The Imaginary WWW Server
  * http://www.pvv.unit.no/viking
+
    The Viking mud WWW Server       
 
 _________________________________________________________________
@@ -202,20 +206,28 @@ _________________________________________________________________
 The following lists use the Mailman mailing list software. Click on the link to subscribe to those lists:
 
  * http://list.imaginary.com/mailman/listinfo/foundation-mudlib
+
    The Foundation Object Library Mailing List   
  * http://list.imaginary.com/mailman/listinfo/intermud
+
    The Intermud Protocols Mailing List   
  * http://list.imaginary.com/mailman/listinfo/lima-mudlib
+
    The LIMA Mudlib Mailing List   
  * http://list.imaginary.com/mailman/listinfo/lpc-language
+
    The LPC Language Mailing List   
  * http://list.imaginary.com/mailman/listinfo/mudos
+
    The MudOS General Discussion Mailing List   
  * http://list.imaginary.com/mailman/listinfo/mudos-bugs
+
    The MudOS Bug Reporting List   
  * http://list.imaginary.com/mailman/listinfo/mudos-develop
+
    The MudOS Developers' Mailing List   
  * http://list.imaginary.com/mailman/listinfo/mudos-patches
+
    The MudOS Patch Distribution List       
 
 The following lists use the majordomo software. To subscribe, mail majordomo at the sites mentioned with "subscribe list-name" in the body of your mail. To get more information on the lists below, mail majordomo at the site mentioned with "info list-name" in the body of the mail. Naturally, list-name should be replaced with the appropriate list name.
@@ -229,6 +241,7 @@ For example, to subscribe to the lpc-language mailing list lpc-language@imaginar
 To mail a post to the mailing list, simply mail lpc-language@imaginary.com and proceed as you would as if you were mailing a single person.
 
  * amylaar-users@nightfall.org
+
    The LPMud 3.2 and 3.2.1 Users Mailing List       
 
 In addition, the TMI-2 mailing list uses different mailing list software which can be subscribed to by visiting the list page at http://www.mudlib.org/mailman/listinfo/tmi-2.
@@ -310,6 +323,7 @@ I know of no place that lists ONLY LPMud's, however, there is Doran's Mudlist, w
 MUDs connected to the Intermud generally have mudlists which they maintain dynamically based on which muds they are currently talking to:
 
  * http://ie.imaginary.com:7885/gateways/mudlist
+
    The Idea Exchange Dynamic Intermud Mudlist      
 
 Keep in mind, however, these dynamic lists hold only LPMuds which support intermud communication. They are by no means full lists. You will also find that many muds on this list are in some sort of developmental stage.  
@@ -393,16 +407,22 @@ _________________________________________________________________
 The following commands exist on virtually all LPMuds. () around part of a command indicate that that part is optional. [] indicates that the text should not be taken literally. These commands naturally are not likely to be found on non-English muds. 
 
  * help ([topic])
+
    Gives you help. If you specify a topic, you get help on that topic. If you just type help, you will either get help on where to find other help, or you will be put into a help menu.         
  * tell [player] [message]
+
    Sends the string [message] to the player whose name is [player] anywhere on the mud. Some LPMuds do not allow players to tell to one another as it is viewed unrealistic.         
  * say [message]
+
    Sends [message] to everyone who is in the same mud room as you. This command is almost always aliased to "'", such that "'hi!" is the same thing as typing "say hi!".         
  * who
+
    Gives you a list of everyone connected to that mud.         
  * look
+
    Gives you a description of the mud room in which you are in.         
  * look at [object]
+
    Gives you a description of the object in question.           
 
 _________________________________________________________________
@@ -536,8 +556,10 @@ First, determine if the problem is with...
 
 Now that you know what "type" of error you have, you need to isolate it. Isolating it depends on the type of bug...
  * _the object fails to load_
+
    You have the bug isolated for you you in your error file. The location of the error log depends on the file name of the object with the error. It also depends on the way your mudlib logs such errors. Nightmare, for example, logs compile errors to /log/errors/std for obejcts in /std, etc, and /log/errors/descartes for objects from /realms/descartes. TMI-2 would log my errors to /u/d/descartes/log and mudlib errors to /log/* with sensitive logging going to /log/adm/* _know_ with MudOSthe driver does isolate the error for you to a useful degree of certainty. More on this later. For LPMud 3.2.1, you can use the: #pragma verbose_errors preprocessor directive to make compile time errors include a bit of context in error messages. Some mudlibs turn this #pragma on by default.
  * _an error occurs during execution_
+
    These are logged in the mud's runtime error logged, and they ALWAYS reflect the exact line where something happened. On MudOS muds before 0.9.20, the system runtime log was /log/debug.log. The mudlib in later versions has the option of naming it whatever. 
 
    > "Brought over from LPMud 3.[01].x , LPMud 3.2 uses /`hostname`/debug.log. LPMud 3.2.1 allows you to pass the option --debug_file to change this default. If there is a triple fault (i.e. an error while the master was processing an error in error processing), and you compiled the driver with the TRACE_CODE option, there will also be a trace of the last instructions executed. Moreover, if the driver is not out of memory, and there   is no triple fault, the apply runtime_error() is called in the master, with the error message, file name, object name and line   number as arguments." -Amylaar
@@ -545,66 +567,67 @@ Now that you know what "type" of error you have, you need to isolate it. Isolati
    Note that for drivers which can compile LPC code to C and then link it into the driver, no line number information will exist to help you in debugging. You should therefore debug your LPC code thoroughly before compiling it to C.
  
  * _no errors, you just do not get expected results_
+
    These are the hardest to debug. You need to go through the code and test
 
-    1. Which code is being executed
-    2. The values of the variables in the executed code
+   1. Which code is being executed
+   2. The values of the variables in the executed code
 
-    How do you do this? Take the following code with a priveledges bug...
+   How do you do this? Take the following code with a priveledges bug...
 
-    ```
-    /* from /cmds/adm/_rid.c */
+   ```
+   /* from /cmds/adm/_rid.c */
 
-    int cmd_rid(string str) {
-        if(!archp(previous_object())) return 0;
-        if(!str || !user_exists(str = lower_case(str))) return 0;
-        if(!((int)USERS_D->rid_user(str))) return 0;
-        message("system", "You rid "+capitalize(str)+".", previous_object());
-        return 1;
-    }
+   int cmd_rid(string str) {
+       if(!archp(previous_object())) return 0;
+       if(!str || !user_exists(str = lower_case(str))) return 0;
+       if(!((int)USERS_D->rid_user(str))) return 0;
+       message("system", "You rid "+capitalize(str)+".", previous_object());
+       return 1;
+   }
 
-    /* EOF */
+   /* EOF */
 
-    /* /secure/daemon/users.c */
+   /* /secure/daemon/users.c */
 
-    int rid_user(string str) {
-        return rm(DIR_USERS+"/"+str[0..0]+"/"+str+SAVE_EXTENSION);
-    }
+   int rid_user(string str) {
+       return rm(DIR_USERS+"/"+str[0..0]+"/"+str+SAVE_EXTENSION);
+   }
 
-    /* OTHER CODE DELETED FOR BREVITY */
-    ```
+   /* OTHER CODE DELETED FOR BREVITY */
+   ```
 
-    This is not real code (as a lot more should exist in such an operation). However it does serve the point. This code will load fine and execute without error. However, it will not delete the save file of any user. If anyone executes it, the following will happen:
-              
-    ```
-    > rid weenieplayer
-    What?
-    >
-    ```
+   This is not real code (as a lot more should exist in such an operation). However it does serve the point. This code will load fine and execute without error. However, it will not delete the save file of any user. If anyone executes it, the following will happen:
+             
+   ```
+   > rid weenieplayer
+   What?
+   >
+   ```
 
-    So what do you know? You know you typed "rid weenieplayer", and you know you got 0 returned. One of the following things happened:
-    
-    1. The "rid" command never got executed
-    2. The archp() returned false for the person executing the
-       command
-    3. For some reason, str was equal to 0
-    4. rid_user() in users.c returned 0 to the command
-            
-    How do you know if 1 is the problem? put the line... write("rid command executed") as the first line of the cmd_rid() function in the rid command. If the rid command is executed, you will see that it is executed before you see "What?". If it is not, you will just see "What?". If you do not see that line in write(), then you know your bug is with you whatever calls the "rid" command. If you do, then you know you must proceed further.
- 
-    Do the same after each line which returns 0. Make sure each write() string is unique so you know *which* line is being written out. This will tell you exactly *which* line is returning 0 in the rid command.
- 
-    In this case, it is #4 which is the problem. The users daemon is returning 0 for for rid_user(). This means that rm() is definitely returning 0. rm() only returns 0 when an rm fails. rm() only fails when an object does not have proper access. Therefore, in this case, you need to fix the bug in your security.
- 
-    If for some reason you cannot go editing the files in question (i.e. they are in the base lib files to which you have no access, changing them would be even more troublesome, etc), you should consider the efuns trace() and traceprefix().
- 
-    Do you need to go through all of these tedious steps? No, you can generally make good guesses as to where to look the more familiar you become with the code. For example, in this case you pretty much could have elimited step 1 if that command is an old command which used to work. After all, it is highly unlikely that the mud would suddenly stop executing that one command!
- 
-    Furthermore, if you had just made a change to the security system, you would immediately suspect that rm() failed and thus would have checked that first.
- 
-    This is why presenting me with your entier rid command would have been useless to me. I would have looked at it and said it *looks* ok. But I have no idea what changes you have recently made to your mud, nor do I know from looking at the code which of those lines is returning 0. I can only basically tell you that one of those lines is failing.
- 
-    However, if you were to tell me that for some reason your user object was returning 0 in trying to rm() the user file during the rid command, I could tell you details about the relevant parts of the Nightmare LPC Library security to this daemon. And then you could use that information to debug further and ultimately fix the bug.
+   So what do you know? You know you typed "rid weenieplayer", and you know you got 0 returned. One of the following things happened:
+   
+   1. The "rid" command never got executed
+   2. The archp() returned false for the person executing the
+      command
+   3. For some reason, str was equal to 0
+   4. rid_user() in users.c returned 0 to the command
+           
+   How do you know if 1 is the problem? put the line... write("rid command executed") as the first line of the cmd_rid() function in the rid command. If the rid command is executed, you will see that it is executed before you see "What?". If it is not, you will just see "What?". If you do not see that line in write(), then you know your bug is with you whatever calls the "rid" command. If you do, then you know you must proceed further.
+
+   Do the same after each line which returns 0. Make sure each write() string is unique so you know *which* line is being written out. This will tell you exactly *which* line is returning 0 in the rid command.
+
+   In this case, it is #4 which is the problem. The users daemon is returning 0 for for rid_user(). This means that rm() is definitely returning 0. rm() only returns 0 when an rm fails. rm() only fails when an object does not have proper access. Therefore, in this case, you need to fix the bug in your security.
+
+   If for some reason you cannot go editing the files in question (i.e. they are in the base lib files to which you have no access, changing them would be even more troublesome, etc), you should consider the efuns trace() and traceprefix().
+
+   Do you need to go through all of these tedious steps? No, you can generally make good guesses as to where to look the more familiar you become with the code. For example, in this case you pretty much could have elimited step 1 if that command is an old command which used to work. After all, it is highly unlikely that the mud would suddenly stop executing that one command!
+
+   Furthermore, if you had just made a change to the security system, you would immediately suspect that rm() failed and thus would have checked that first.
+
+   This is why presenting me with your entier rid command would have been useless to me. I would have looked at it and said it *looks* ok. But I have no idea what changes you have recently made to your mud, nor do I know from looking at the code which of those lines is returning 0. I can only basically tell you that one of those lines is failing.
+
+   However, if you were to tell me that for some reason your user object was returning 0 in trying to rm() the user file during the rid command, I could tell you details about the relevant parts of the Nightmare LPC Library security to this daemon. And then you could use that information to debug further and ultimately fix the bug.
 
 _________________________________________________________________
                                       
@@ -619,16 +642,22 @@ For any function in LPC, there are three distinct parts...
 Whate differentiates all of these different types of functions is _where_ they are defined. The definition of the function is the part which says what it does.
 
  * afun (auto function, DGD only)
+
    the function is defined in the auto object and behaves like and efun from other drivers. This function is really very special type of lfun.
  * apply
+
    a function defined in the mudlib designed to be called only by the driver. All applies are also lfuns. Most of the functions in the DGD's driver object and other's master object are applies. In addition, the functions create(), init(), and reset() are also applies for LPMud 3.2 (not 3.2.1), MudOS, and CD.
  * efun (external function)
+
    this type of function is defined external with respect to the mudlib. In other words, in the driver. Since it is defined inside the driver, it is faster, but the mudlib is left with little control over what it does.
  * kfun (kernel function, DGD only)
+
    This type of function is much like an efun in that it is defined external to the mudlib in the driver kernel. There are some ways beyond the scope of this FAQ in which kfuns differ from efuns, ways which have little bearing to daily coding.
  * lfun (local function)
+
    Any function defined inside an object in the mudlib. The functions you write (like create() or reset()) are lfuns.
  * sefun (simulated external function)
+
    lfuns defined in an object known as the simul efun object. Any object in the mudlib is allowed to use these functions as if they were efuns (treat them like local calls).
 
 You might also want to keep in mind the difference between a local call and a call_other. A local call is a call to a function defined in your object or to one of the objects it inherits. A call other is a call to a function defined in another object. Efuns and simul efuns, though not defined in your object, act like local calls. Afuns and kfuns are in fact local calls, since all objects inherit the auto object to which they are local.   
@@ -776,77 +805,98 @@ _Note:_ Also, I only publish software which the authors have somehow made known 
                                   Servers
 
  * CD
+
    Generally considered a slow driver, however it is designed to work very closely with the CD-lib. Therefore tests showing the CD driver to be slower are not necessrily fair as sole factors since they are mudlib-independent tests. The CD-lib is considered a well designed lib which is often a factor which leads people to choose this server. To see a CD server mud, visit Genesis.
  * DGD
+
    DGD is built on the belief that small is good. This is absent of much of the extra baggage which exists in all other drivers since it was created from scratch. There currently exist only a few, small native mudlibs for DGD, one of which is a MOO simulation. DGD's documentation is sparse. It includes dynamic object version updating amd supports compile time LPC->C compiling, meaning that when you compile the driver you can have some of your LPC files converted to C and compiled with the driver. In addition, unlike other LPMud servers, it is disk-based, meaning you can run a huge mud on virtually no RAM. You therefore never need to reboot or save objects. Dark has written a TCP/IP socket support for DGD which can be gotten separately from the driver. Erwin Harte is managing a network package for the driver. 
  * LPC4
+
    Maintained by Profezzorn, it supports a scripting feature that allows you to execute LPC files as atomic programs without running the mud in the traditional sense. In addition it features lambda closure types which are actually understandable to most people. It is designed for speed through the philosophy of creating large numbers of efuns to perform CPU intensive work. I know of no muds using this driver in practice. LPC4 also has socket efuns with TCP support. 
  * LPMud
+
    Once the fastest of all the drivers, it has lost this crown to MudOS. Nevertheless, it is an extremely fast driver which supports the old LPMud 2.4.5 Mudlib. It also supports closures, though its closure syntax is beyond general ease of comprehension. There is only one mudlib in wide release which is native to this server. 
  * MudOS
+
    The fastest and most feature-filled of the LPMud drivers, this one comes with TCP support for mudlib objects allowing you things like WWW, finger, SMTP, USENET, and other such access to Internet resources from inside the mud. It also comes with a choice of well-developed mudlibs native to the server. MudOS allows you to choose between UID support and no-UID support, which makes it easy to hack a LPMud 2.4.5 mud to work with MudOS if that is your cup of tea. MudOS supports a new function pointer syntax which is as functional as LPMud's closures without LPMud's obscure closure syntax. 
  * Shattered World
+
    Developed by one of the original LPMuds. I believe this driver originated from one of the first LPMud releases and has been heavily customized in such a way as not to be recognizable as such. 
 
 Object Libraries
 
  * CD-lib 
+
    I am told this is a very well-designed mudlib. Some features of it are an enhanced sense of reality through player recognition (you must make the acquaintance of players before knowing who they are) and UDP intermud communications. 
 
    Runs under: CD (native) 
  * Dead Souls 
+
    A public domain version of the former Nightmare mudlib. It contains a complete mudlib from which to build a world, but is very difficult to set up. 
 
    Runs under: MudOS v21b25 (native) 
  * DGD Kernel Library 
+
    A minimal development library that can be used as a basis for both continuous and non-continuous systems. It comes included with the DGD 1.1 release. 
 
    Runs under: DGD 1.1 (native) 
  * Discworld Advanced 
+
    command parsing system and user interface, as well as many concepts you will not see in other mudlibs for any server. Too many frogs and wombles. 
 
    Runs under: MudOS 0.9.20 (native) 
  * Final Realms
+
    A modernized version of the Discworld mudlib. 
 
    Runs under: MudOS 
  * Foundation IIr1.1 
+
    A basic mudlib with nothing extra for people who want a solid design base from which to design a unique mudlib. No combat or anything else fancy is included. Nothing about it is pre-disposed towards fantasy or even game playing for that matter. On the positive side, there is nothing to deconstruct in order to build your own mudlib and there is more of a solid base to work from than something like Lil. The downside is that you will have to put in a lot of work to make a playable game from this. 
 
    Runs under: MudOS v21.7b23 (native) 
  * Heaven 7 
+
    A mudlib that essentially extends LPMud 2.4.5 with all the player features you always wanted such as classes, skills, and unlimited levels. It is well-suited to LPMud 3.2, but poorly suited to the other drivers under which it runs. 
 
    Runs under: LPMud 3.2 (native) 
  * Lil 
+
    A small, essentials only mudlib. Designed basically to give you examples of files as they must minimally be for the MudOS driver to run. Only useful if you plan really to write something totally from scratch. 
 
    Runs under: MudOS (native) 
  * LIMA 1.0a5 
+
    This is a brand new library, featuring the new MudOS natural language parsing package and a UNIX-like wizard shell with output redirection and command piping. In addition, it is a very modular, object-oriented mudlib with stack-based security. 
 
    Runs under: MudOS v22.1b4 (native)
  * LPMoo 
+
    A MOO simulation using LPC. This library allows you to work and play exactly as if you were using MOO instead of LPC. 
 
    Runs under: DGD (native) 
  * LPMud 2.4.5 
+
    The most well-known mudlib in existence. It is rather simple, not the best design, but if you know it, it is useful. Also, the widest range of drivers support it. Good for putting up and running a mud quickly. It is very ancient and inferior in design, flexibility, and functionality to modern mudlibs. 
 
    Runs under: DGD (non-native), LPMud 3.2 (non-native), LPC4 (non-native) 
  * Melville 
+
    Extremely minimalist mudlib for DGD. Documentation is sparse and it has few features. According to Dworkin, "Unfortunately it was never finished and today it is rather out of date. It does not work with recent versions of DGD." 
 
    Runs under: DGD (native) 
  * Shattered World 
+
    Mudlib to go with the Shattered World driver. It supposedly has a system for doing detailed economic and predictive analysis and is a distant descendant of the LPMud 2.4.5 mudlib. Other than that, I know absolutely nothing about it. 
 
    Runs under: Shattered World (native) 
  * TMI-2 1.4 
+
    Generic, designed for those who want to tinker around with their mudlib rather than get a mud up in no-time flat. Designed to be easily modified and comes with a full-range of intermud support as well WWW support. Features include the ability to take over monster bodies. Downside is its poor design and performance. 
 
    Runs under: MudOS v21 (native) 
  * TubMUD 
+
    Very intricate, and, according to Rust, "it is beautiful if you can figure it out." Intended more for Tub wizards to run at home than for wide-release. 
    
    Runs under: LPMud 3.2 (native)
@@ -902,38 +952,55 @@ These first set of sites are generic "goto" sites when looking for LPMud stuff:
 In addition, the primary site for individual pieces of software:
 
   * CD (server and library)
+
     ftp://ftp.cd.chalmers.se/pub/lpmud/
   * DGD (server)
+
     ftp://ftp.imaginary.com/pub/LPC/servers/
   * Discworld (library)
+
     ftp://ftp.imaginary.com/pub/LPC/lib/
   * Final Realms (library)
+
     ftp://ftp.imaginary.com/pub/LPC/lib/
   * Foundation (library)
+
     ftp://ftp.imaginary.com/pub/LPC/lib/
   * Heaven 7 (library)
+
     http://www.dialnet.net/users/mud1/dload.htm
   * Lil (library)
+
     ftp://ftp.actlab.utexas.edu
   * LIMA (library)
+
     ftp://ftp.imaginary.com/pub/LPC/lib/
   * LPC4 (server)
+
     ftp://ftp.lysator.liu.se/pub/lpmud/drivers/profezzorn
   * LPMud 2.4.5 (library)
+
     ftp://ftp.lysator.liu.se
   * LPMoo (library)
+
     ftp://ftp.ccs.neu.edu/pub/mud/mudlibs/
   * LPMud 3.2 (server)
+
     ftp://ftp.nightfall.org/pub/games/lpmud
   * MacMUD (server)
+
     http://www.eden.com/~hsoi/mud
   * Melville (library)
+
     ftp://ftp.ccs.neu.edu
   * MudOS (server)
+
     ftp://ftp.imaginary.com/pub/LPC/servers/
   * Shattered World (server)
+
     ftp://moo.cs.rmit.edu.au/
   * TMI-2 (library)
+
     ftp://ftp.imaginary.com/pub/LPC/lib/
          
 _________________________________________________________________
@@ -1017,27 +1084,35 @@ _________________________________________________________________
 These are the ports of which I am aware:
 
   * AmigaOS
+  
     DGD, LPMud 3.2, 3.2.1, MudOS
          
   * Atari
+  
     DGD, LPMud 3.2, 3.2.1
          
   * BeOS
+  
     DGD
          
   * System 6
+  
     MacMUD (which is LPMud 3.1.2), DGD
          
   * MacOS
+  
     MacMUD, DGD
          
   * OS/2
+  
     DGD, LPMud 3.2, 3.2.1, MudOS
          
   * Windows 95
+  
     DGD, MudOS
          
   * Windows NT
+  
     DGD, MudOS
 
 _________________________________________________________________
