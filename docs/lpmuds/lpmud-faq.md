@@ -79,15 +79,19 @@ Beyond that, the charter is a little unclear and out of date. What sort of LPMud
 In particular, the following questions are definitely _not_ welcome in rec.games.mud.lp:
 
 * FascistMUD's admins are such jerks!!! They ...
+
   Why would you post this? I guarantee you will accomplish nothing by this. First of all, ALL mud admins have bad days where they may do something very unfair. It is the nature of things. So you may be the unfortunate victim of a rare set of circumstances rather than of a mean admin. Secondly, even if the mud admin is a jerk, no one on this newsgroup cares. People will play such muds either because the admin is damn good at creating a game or because the players are other jerks who like the atmosphere of lawlessness. Players like you may login from time to time, but eventually they will figure it out.
 
 * Do not post mudsex sessions 
+
   An individual's sexual activities are not matters for public derision. How people choose to express themselves sexually is a private issue as long as only consenting adults are involved. 
 
 * Where is CheeseMUD? I have not been able to connect all day! 
+
   If it is going to be down a long time, the admins should post to rec.games.mud.announce. Otherwise, it is either a short connection loss or it is just your problem. _Do not post these questions here or anywhere!!!_
 
 * Advertisements for muds
+
   These belong in the newsgroup rec.games.mud.announce.       
 
 In the event someone does post improperly to the newsgroup, readers should quietly inform the poster of the misstep via email. In the past, violations of the Charter or FAQ have erupted in counter-productive flame wars. By emailing the offender, you accomplish both the tasks of informing the person and of keeping the newsgroup free of pointless arguments.
