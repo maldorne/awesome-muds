@@ -16,18 +16,18 @@ Posting-frequency: bi-weekly
 
 Last Modified 98/09/15
 
-The LPMud FAQ was originally authored 7 November 1994 by George Reese. It could not, however, have been completed on the efforts of a single person. See the credits section for a full list of contributors. To make comments or suggestions on this FAQ, mail borg@imaginary.com.
+The LPMud FAQ was originally authored 7 November 1994 by George Reese. It could not, however, have been completed on the efforts of a single person. See the credits section for a full list of contributors. To make comments or suggestions on this FAQ, mail [borg@imaginary.com](mailto:borg@imaginary.com).
 
 Copyright (c) 1994-1998 George Reese.
 _________________________________________________________________
-                                      
+
 This is a list of Frequently Asked Questions asked about LPMuds and the newsgroup devoted to them, rec.games.mud.lp. This FAQ is posted twice a month to rec.games.mud.lp, rec.games.mud.announce, news.answers, and rec.answers. All readers are strongly advised to read this FAQ before posting questions to the LPMud news group, as your question may already be answered in here.
 
 This FAQ is not intended to be a substitute for the general 3 part mud FAQ's. I strongly recommend people new to muds read those first. This FAQ deals with a particular class of muds known as LPMuds, and therefore does not even attempt to cover information important to other classes of muds.
 _________________________________________________________________
 
 The LPMud FAQ is divided into four sections:
- 
+
  * Section I: Introduction    
  * Section II: Playing LPMuds    
  * Section III: Coding on an LPMud    
@@ -36,7 +36,7 @@ The LPMud FAQ is divided into four sections:
 _________________________________________________________________
 
 ## Section I Introduction   
-  
+
   Contents
 
   1. What sort of posts belong in rec.games.mud.lp?
@@ -51,12 +51,12 @@ _________________________________________________________________
   10. Is there anything about muds on WWW? 
   11. What are some mud related mailing lists?     
 
-_________________________________________________________________                                      
+_________________________________________________________________
 
 ### What sort of posts belong in rec.games.mud.lp?
 
 From the rec.games.mud.lp charter of 23 October 1991:
- 
+
 >"The charter of this newsgroup is to discuss topics related to the LPMUD variant of MUD. LPMUD is a particular "brand" of MUD that was written by Lars Penji and has gained some populatity among MUD players in general, Discussions here should be confined to the following topics. Briefly, LPMUD uses a "parser" to interpret a 'C' like language (called LPC) which defines the actual game being played. Thus the various topics of discussion break down like so:
 
    * Player and 'Wizard' issues
@@ -106,11 +106,11 @@ You should email the maintainer of the FAQ. Change requests fall into three diff
 2. Matters of opinion
 3. Matters of consensus
 
-The first kind of issue are matters of fact--i.e. the status of mud software, the email address of a mailing list, etc.--then I will simply add that to the FAQ. If you are not directly responsible for the issue in question, I might request an email from the person who is.
+The first kind of issue are matters of fact -- i.e. the status of mud software, the email address of a mailing list, etc. -- then I will simply add that to the FAQ. If you are not directly responsible for the issue in question, I might request an email from the person who is.
 
 Matters of opinion will likely not replace existing passages, but instead appear alongside them. For example, the FAQ might state that capturing player emails is a good idea. Someone who disagreed strongly and presented an argument could email that argument to me. Since this is a matter of opinion, the new opinion would be added as an opposing opinion. In other words, it would not replace the existing clause.
 
-Certain issues, such as the interpretation of the Charter, are neither matters of fact nor matters of opinion--they are matters of consensus. These are parts of the FAQ for which only one point of view can be right, yet a certain minority of people may nevertheless disagree with.
+Certain issues, such as the interpretation of the Charter, are neither matters of fact nor matters of opinion -- they are matters of consensus. These are parts of the FAQ for which only one point of view can be right, yet a certain minority of people may nevertheless disagree with.
 
 The FAQ has been around for a long time and represents the consensus of the newsgroup. Consensus does sometimes change, and the FAQ needs to be able to adjust with changes in consensus. For matters of consensus, I will ask anyone making a request to provide evidence that the consensus of the group has changed. Because the FAQ is established as the consensus of the newsgroup, the burden of proof is entirely on the requester. The nature of that proof is naturally dependent on the issue at hand.
 
@@ -121,7 +121,7 @@ _________________________________________________________________
 An LPMud is one of many classes of muds, or multi-user domains. A multi-user domain is defined solely with respect to its ability to allow multiple real individuals to come together in some sort of environment. Although the most common environment is a gaming environment, muds need not be games. In fact, among other uses of MUDs that I know of, there are virtual colleges, a mud where victims of abuse can come together in a productive environment, and muds designed to bring students with disabilities into social contact with one another and others. The single defining theme for mud is therefore being a virtual environment where multiple people come in contact.
 
 An LPMud specifically allows the users to manipulate the environment through a language called LPC. LPMuds are computer programs which listens to the internet for people attempting to connect, reads LPC files, and acts upon those LPC files according to the rules of the LPC language to create the virtual environment. Currently, I know of 6 major LPMud servers:
- 
+
  * CD    
  * DGD    
  * LPC4    
@@ -185,17 +185,17 @@ _________________________________________________________________
 ### Is there anything about muds on WWW?
 
 The following is a list of LPMud related WWW URL's, a few of which are even written in the mud programming language LPC:
- 
- * http://www.bat.org
+
+ * [http://www.bat.org](http://www.bat.org)
 
    The BatMUD WWW Server
- * http://www.lostsouls.org
+ * [http://www.lostsouls.org](http://www.lostsouls.org)
 
    The Lost Souls WWW Server
- * http://www.imaginary.com
+ * [http://www.imaginary.com](http://www.imaginary.com)
 
    The Imaginary WWW Server
- * http://www.pvv.unit.no/viking
+ * [http://www.pvv.unit.no/viking](http://www.pvv.unit.no/viking)
 
    The Viking mud WWW Server       
 
@@ -205,55 +205,55 @@ _________________________________________________________________
 
 The following lists use the Mailman mailing list software. Click on the link to subscribe to those lists:
 
- * http://list.imaginary.com/mailman/listinfo/foundation-mudlib
+ * [http://list.imaginary.com/mailman/listinfo/foundation-mudlib](http://list.imaginary.com/mailman/listinfo/foundation-mudlib)
 
    The Foundation Object Library Mailing List   
- * http://list.imaginary.com/mailman/listinfo/intermud
+ * [http://list.imaginary.com/mailman/listinfo/intermud](http://list.imaginary.com/mailman/listinfo/intermud)
 
    The Intermud Protocols Mailing List   
- * http://list.imaginary.com/mailman/listinfo/lima-mudlib
+ * [http://list.imaginary.com/mailman/listinfo/lima-mudlib](http://list.imaginary.com/mailman/listinfo/lima-mudlib)
 
    The LIMA Mudlib Mailing List   
- * http://list.imaginary.com/mailman/listinfo/lpc-language
+ * [http://list.imaginary.com/mailman/listinfo/lpc-language](http://list.imaginary.com/mailman/listinfo/lpc-language)
 
    The LPC Language Mailing List   
- * http://list.imaginary.com/mailman/listinfo/mudos
+ * [http://list.imaginary.com/mailman/listinfo/mudos](http://list.imaginary.com/mailman/listinfo/mudos)
 
    The MudOS General Discussion Mailing List   
- * http://list.imaginary.com/mailman/listinfo/mudos-bugs
+ * [http://list.imaginary.com/mailman/listinfo/mudos-bugs](http://list.imaginary.com/mailman/listinfo/mudos-bugs)
 
    The MudOS Bug Reporting List   
- * http://list.imaginary.com/mailman/listinfo/mudos-develop
+ * [http://list.imaginary.com/mailman/listinfo/mudos-develop](http://list.imaginary.com/mailman/listinfo/mudos-develop)
 
    The MudOS Developers' Mailing List   
- * http://list.imaginary.com/mailman/listinfo/mudos-patches
+ * [http://list.imaginary.com/mailman/listinfo/mudos-patches](http://list.imaginary.com/mailman/listinfo/mudos-patches)
 
    The MudOS Patch Distribution List       
 
 The following lists use the majordomo software. To subscribe, mail majordomo at the sites mentioned with "subscribe list-name" in the body of your mail. To get more information on the lists below, mail majordomo at the site mentioned with "info list-name" in the body of the mail. Naturally, list-name should be replaced with the appropriate list name.
 
-For example, to subscribe to the lpc-language mailing list lpc-language@imaginary.com, you do the following:
+For example, to subscribe to the lpc-language mailing list [lpc-language@imaginary.com](mailto:lpc-language@imaginary.com), you do the following:
 
- 1. mail majordomo@imaginary.com
+ 1. mail [majordomo@imaginary.com](mailto:majordomo@imaginary.com)
  2. subject is irrelevant, body says "subscribe lpc-language"
  3. the list will then confirm you have been added by mail 
 
-To mail a post to the mailing list, simply mail lpc-language@imaginary.com and proceed as you would as if you were mailing a single person.
+To mail a post to the mailing list, simply mail [lpc-language@imaginary.com](mailto:lpc-language@imaginary.com) and proceed as you would as if you were mailing a single person.
 
- * amylaar-users@nightfall.org
+ * [amylaar-users@nightfall.org](mailto:amylaar-users@nightfall.org)
 
    The LPMud 3.2 and 3.2.1 Users Mailing List       
 
-In addition, the TMI-2 mailing list uses different mailing list software which can be subscribed to by visiting the list page at http://www.mudlib.org/mailman/listinfo/tmi-2.
+In addition, the TMI-2 mailing list uses different mailing list software which can be subscribed to by visiting the list page at [http://www.mudlib.org/mailman/listinfo/tmi-2](http://www.mudlib.org/mailman/listinfo/tmi-2).
 
 Individual muds may have their own mailing lists as well. Check with your LPMud for details. For people running lists with an audience beyond a single mud, please let me know of your list. If you use list software not listed, I need the name of the list, how to subscribe, and how to get more information.
 
 _________________________________________________________________
-                                 
+
 ## Section II Playing LPMuds
-                                      
+
   Contents
-  
+
   1. How do I play an LPMud?
   2. But I am using windows!
   3. How do I get a list of LPMuds?
@@ -272,9 +272,9 @@ _________________________________________________________________
   16. The admins are being unfair, don't I have rights?
   17. What about freedom of speech?
   18. What else is there?
-       
+      
 _________________________________________________________________
-                                      
+
 ### How do I play an LPMud?
 
 You must first find the internet address of the mud you wish to play.Once you find the address, most often people use the "telnet" programto connect to this address. The mud FAQ has an excellent section onMUD clients, which are alternatives to the plain vanilla "telnet"program. However, generally speaking, with "telnet", you can accessthe mud of your choice by issuing the command:
@@ -322,7 +322,7 @@ I know of no place that lists ONLY LPMud's, however, there is Doran's Mudlist, w
 
 MUDs connected to the Intermud generally have mudlists which they maintain dynamically based on which muds they are currently talking to:
 
- * http://ie.imaginary.com:7885/gateways/mudlist
+ * [http://ie.imaginary.com:7885/gateways/mudlist](http://ie.imaginary.com:7885/gateways/mudlist)
 
    The Idea Exchange Dynamic Intermud Mudlist      
 
@@ -342,7 +342,7 @@ No. To provide a list of such muds is beyond the scope of this FAQ. Check the mu
  * Polish  
  * Swedish
 
-_________________________________________________________________  
+_________________________________________________________________
 
 ### Ok, the mud is asking me for a name, what do I do?
 
@@ -472,7 +472,7 @@ Explore the mud! Most gaming muds have places called "newbie" areas which are si
 Ask people questions. Just make sure you have read the help files first, or you will be sure to annoy someone. In addition, try not to choose a single person for your queries. Constantly being asked questions by the same person can often annoy people as easily as stupid questions.
 
 _________________________________________________________________
-                                      
+
 ## Section III Coding on an LPMud
 
   Contents  
@@ -518,7 +518,7 @@ There are two parts to learning how to code on your mud:
  1. Learning LPC
  2. Learning your mud's object library (mudlib)
 
-Each mud should have detailed documentation on part 2. Two LPC textbooks, a beginner and an intermediate, exist to take care of part 1. You can get the textbooks via ftp at ftp://ftp.imaginary.com/pub/LPC/. Documentation, however, will not    really do anything without looking at examples, practicing, and talking to more experienced coders. Examples should be everywhere on your mud (though they are not necessarily good examples). Practicing is simply just copying code you do not understand, making small changes to it to see what they do, and learning from what happens. To learn more about how to code from others, talk to more experienced coders on your own mud or visit The Idea Exchange which is designed to help people learn LPC.
+Each mud should have detailed documentation on part 2. Two LPC textbooks, a beginner and an intermediate, exist to take care of part 1. You can get the textbooks via ftp at [ftp://ftp.imaginary.com/pub/LPC/](ftp://ftp.imaginary.com/pub/LPC/). Documentation, however, will not really do anything without looking at examples, practicing, and talking to more experienced coders. Examples should be everywhere on your mud (though they are not necessarily good examples). Practicing is simply just copying code you do not understand, making small changes to it to see what they do, and learning from what happens. To learn more about how to code from others, talk to more experienced coders on your own mud or visit The Idea Exchange which is designed to help people learn LPC.
 
 _________________________________________________________________
 
@@ -532,7 +532,7 @@ _________________________________________________________________
 
 Read your mud's documentation, as this varies greatly from mud to mud.
 
-> "Also, questions like that are almost impossible to answer in any   other way than showing an example. Thus, a much better question is:   'Where can I find an example of how to create a XXX?' or 'I don't   quite understand this part of the example on how to...'" -Drevreck   (Lars Syrstad)      
+> "Also, questions like that are almost impossible to answer in any other way than showing an example. Thus, a much better question is: 'Where can I find an example of how to create a XXX?' or 'I don't quite understand this part of the example on how to...'" -Drevreck (Lars Syrstad)      
 
 _________________________________________________________________
 
@@ -557,15 +557,15 @@ First, determine if the problem is with...
 Now that you know what "type" of error you have, you need to isolate it. Isolating it depends on the type of bug...
  * _the object fails to load_
 
-   You have the bug isolated for you you in your error file. The location of the error log depends on the file name of the object with the error. It also depends on the way your mudlib logs such errors. Nightmare, for example, logs compile errors to /log/errors/std for obejcts in /std, etc, and /log/errors/descartes for objects from /realms/descartes. TMI-2 would log my errors to /u/d/descartes/log and mudlib errors to /log/* with sensitive logging going to /log/adm/* _know_ with MudOSthe driver does isolate the error for you to a useful degree of certainty. More on this later. For LPMud 3.2.1, you can use the: #pragma verbose_errors preprocessor directive to make compile time errors include a bit of context in error messages. Some mudlibs turn this #pragma on by default.
+   You have the bug isolated for you you in your error file. The location of the error log depends on the file name of the object with the error. It also depends on the way your mudlib logs such errors. Nightmare, for example, logs compile errors to `/log/errors/std` for objects in `/std`, etc, and `/log/errors/descartes` for objects from /realms/descartes. TMI-2 would log my errors to `/u/d/descartes/log` and mudlib errors to `/log/*` with sensitive logging going to `/log/adm/*` _know_ with MudOSthe driver does isolate the error for you to a useful degree of certainty. More on this later. For LPMud 3.2.1, you can use the: `#pragma verbose_errors` preprocessor directive to make compile time errors include a bit of context in error messages. Some mudlibs turn this `#pragma` on by default.
  * _an error occurs during execution_
 
-   These are logged in the mud's runtime error logged, and they ALWAYS reflect the exact line where something happened. On MudOS muds before 0.9.20, the system runtime log was /log/debug.log. The mudlib in later versions has the option of naming it whatever. 
+   These are logged in the mud's runtime error logged, and they ALWAYS reflect the exact line where something happened. On MudOS muds before 0.9.20, the system runtime log was `/log/debug.log`. The mudlib in later versions has the option of naming it whatever. 
 
-   > "Brought over from LPMud 3.[01].x , LPMud 3.2 uses /`hostname`/debug.log. LPMud 3.2.1 allows you to pass the option --debug_file to change this default. If there is a triple fault (i.e. an error while the master was processing an error in error processing), and you compiled the driver with the TRACE_CODE option, there will also be a trace of the last instructions executed. Moreover, if the driver is not out of memory, and there   is no triple fault, the apply runtime_error() is called in the master, with the error message, file name, object name and line   number as arguments." -Amylaar
+   > "Brought over from LPMud 3.[01].x , LPMud 3.2 uses `/<hostname>/debug.log`. LPMud 3.2.1 allows you to pass the option `--debug_file` to change this default. If there is a triple fault (i.e. an error while the master was processing an error in error processing), and you compiled the driver with the `TRACE_CODE` option, there will also be a trace of the last instructions executed. Moreover, if the driver is not out of memory, and there   is no triple fault, the apply `runtime_error()` is called in the master, with the error message, file name, object name and line number as arguments." -Amylaar
 
    Note that for drivers which can compile LPC code to C and then link it into the driver, no line number information will exist to help you in debugging. You should therefore debug your LPC code thoroughly before compiling it to C.
- 
+
  * _no errors, you just do not get expected results_
 
    These are the hardest to debug. You need to go through the code and test
@@ -577,7 +577,7 @@ Now that you know what "type" of error you have, you need to isolate it. Isolati
 
    ```
    /* from /cmds/adm/_rid.c */
-
+   
    int cmd_rid(string str) {
        if(!archp(previous_object())) return 0;
        if(!str || !user_exists(str = lower_case(str))) return 0;
@@ -585,15 +585,15 @@ Now that you know what "type" of error you have, you need to isolate it. Isolati
        message("system", "You rid "+capitalize(str)+".", previous_object());
        return 1;
    }
-
+   
    /* EOF */
-
+   
    /* /secure/daemon/users.c */
-
+   
    int rid_user(string str) {
        return rm(DIR_USERS+"/"+str[0..0]+"/"+str+SAVE_EXTENSION);
    }
-
+   
    /* OTHER CODE DELETED FOR BREVITY */
    ```
 
@@ -608,29 +608,29 @@ Now that you know what "type" of error you have, you need to isolate it. Isolati
    So what do you know? You know you typed "rid weenieplayer", and you know you got 0 returned. One of the following things happened:
    
    1. The "rid" command never got executed
-   2. The archp() returned false for the person executing the
-      command
-   3. For some reason, str was equal to 0
-   4. rid_user() in users.c returned 0 to the command
+   2. The `archp()` returned false for the person executing the command
+   3. For some reason, `str` was equal to 0
+   4. `rid_user()` in `users.c` returned 0 to the command
            
-   How do you know if 1 is the problem? put the line... write("rid command executed") as the first line of the cmd_rid() function in the rid command. If the rid command is executed, you will see that it is executed before you see "What?". If it is not, you will just see "What?". If you do not see that line in write(), then you know your bug is with you whatever calls the "rid" command. If you do, then you know you must proceed further.
+   
+   How do you know if 1 is the problem? put the line... `write("rid command executed")` as the first line of the cmd_rid() function in the rid command. If the rid command is executed, you will see that it is executed before you see `"What?"`. If it is not, you will just see `"What?"`. If you do not see that line in `write()`, then you know your bug is with you whatever calls the "rid" command. If you do, then you know you must proceed further.
 
-   Do the same after each line which returns 0. Make sure each write() string is unique so you know *which* line is being written out. This will tell you exactly *which* line is returning 0 in the rid command.
+   Do the same after each line which returns 0. Make sure each `write()` string is unique so you know *which* line is being written out. This will tell you exactly *which* line is returning 0 in the rid command.
 
-   In this case, it is #4 which is the problem. The users daemon is returning 0 for for rid_user(). This means that rm() is definitely returning 0. rm() only returns 0 when an rm fails. rm() only fails when an object does not have proper access. Therefore, in this case, you need to fix the bug in your security.
+   In this case, it is #4 which is the problem. The users daemon is returning 0 for for `rid_user()`. This means that `rm()` is definitely returning 0. `rm()` only returns 0 when an rm fails. `rm()` only fails when an object does not have proper access. Therefore, in this case, you need to fix the bug in your security.
 
-   If for some reason you cannot go editing the files in question (i.e. they are in the base lib files to which you have no access, changing them would be even more troublesome, etc), you should consider the efuns trace() and traceprefix().
+   If for some reason you cannot go editing the files in question (i.e. they are in the base lib files to which you have no access, changing them would be even more troublesome, etc), you should consider the efuns `trace()` and `traceprefix()`.
 
    Do you need to go through all of these tedious steps? No, you can generally make good guesses as to where to look the more familiar you become with the code. For example, in this case you pretty much could have elimited step 1 if that command is an old command which used to work. After all, it is highly unlikely that the mud would suddenly stop executing that one command!
 
-   Furthermore, if you had just made a change to the security system, you would immediately suspect that rm() failed and thus would have checked that first.
+   Furthermore, if you had just made a change to the security system, you would immediately suspect that `rm()` failed and thus would have checked that first.
 
    This is why presenting me with your entier rid command would have been useless to me. I would have looked at it and said it *looks* ok. But I have no idea what changes you have recently made to your mud, nor do I know from looking at the code which of those lines is returning 0. I can only basically tell you that one of those lines is failing.
 
-   However, if you were to tell me that for some reason your user object was returning 0 in trying to rm() the user file during the rid command, I could tell you details about the relevant parts of the Nightmare LPC Library security to this daemon. And then you could use that information to debug further and ultimately fix the bug.
+   However, if you were to tell me that for some reason your user object was returning 0 in trying to `rm()` the user file during the rid command, I could tell you details about the relevant parts of the Nightmare LPC Library security to this daemon. And then you could use that information to debug further and ultimately fix the bug.
 
 _________________________________________________________________
-                                      
+
 ### What is an efun? an lfun? a kfun? an sefun?...
 
 For any function in LPC, there are three distinct parts...
@@ -706,9 +706,9 @@ _________________________________________________________________
 A file is considered "in the game" if another file already visible to players references it. So, to put your stuff in the game, you need to change code already in the game to reference your code. This action normally requires the action of mud administrator. Most muds have some sort of quality control policies which state rules for having your code reviewed.
 
 _________________________________________________________________
-                                      
+
 ## Section IV Starting Your Own LPMud
-                                      
+
   Contents
 
   1. How do I start my own LPMud?
@@ -730,7 +730,7 @@ _________________________________________________________________
   17. Can a mud run under AmigaOS? OS2? Windows NT? etc...?
 
 _________________________________________________________________
-                                      
+
 ### How do I start my own LPMud?
 
   1. Come up with a unique and interesting idea
@@ -744,12 +744,12 @@ _________________________________________________________________
 
      1. Choose an object library
      2. Choose a server
- 
+
      Or:
 
      1. Choose a server
      2. Write your own object library
- 
+
      Or:
 
      1. Write your own server
@@ -759,9 +759,9 @@ _________________________________________________________________
   5. Find people to code areas for the mud
   6. Get some areas completed
   7. Open to players (with a beta test stage recommended)
-       
+     
 _________________________________________________________________
-                                      
+
 ### How do I find a site?
 
 The most common method is to talk to the administrator of the machine from which you access muds and the rest of the Internet. If the resources are available, they will often allow you to run your mud server unless something political like a no-games policy is preventing it. If you are not running a mud as a game, however, this is not relevant.
@@ -943,82 +943,82 @@ _________________________________________________________________
 
 These first set of sites are generic "goto" sites when looking for LPMud stuff:
 
-  * ftp.bat.org   
-  * ftp-na.imaginary.com (North America)   
-  * ftp-eu.imaginary.com (Europe)   
-  * ftp.imaginary.com (General)   
-  * ftp.lysator.liu.se        
+  * [ftp.bat.org](ftp://ftp.bat.org)   
+  * [ftp-na.imaginary.com](ftp://ftp-na.imaginary.com) (North America)   
+  * [ftp-eu.imaginary.com](ftp://ftp-eu.imaginary.com) (Europe)   
+  * [ftp.imaginary.com](ftp://ftp.imaginary.com) (General)   
+  * [ftp.lysator.liu.se](ftp://ftp.lysator.liu.se)        
 
 In addition, the primary site for individual pieces of software:
 
   * CD (server and library)
 
-    ftp://ftp.cd.chalmers.se/pub/lpmud/
+    [ftp://ftp.cd.chalmers.se/pub/lpmud/](ftp://ftp.cd.chalmers.se/pub/lpmud/)
   * DGD (server)
 
-    ftp://ftp.imaginary.com/pub/LPC/servers/
+    [ftp://ftp.imaginary.com/pub/LPC/servers/](ftp://ftp.imaginary.com/pub/LPC/servers/)
   * Discworld (library)
 
-    ftp://ftp.imaginary.com/pub/LPC/lib/
+    [ftp://ftp.imaginary.com/pub/LPC/lib/](ftp://ftp.imaginary.com/pub/LPC/lib/)
   * Final Realms (library)
 
-    ftp://ftp.imaginary.com/pub/LPC/lib/
+    [ftp://ftp.imaginary.com/pub/LPC/lib/](ftp://ftp.imaginary.com/pub/LPC/lib/)
   * Foundation (library)
 
-    ftp://ftp.imaginary.com/pub/LPC/lib/
+    [ftp://ftp.imaginary.com/pub/LPC/lib/](ftp://ftp.imaginary.com/pub/LPC/lib/)
   * Heaven 7 (library)
 
-    http://www.dialnet.net/users/mud1/dload.htm
+    [http://www.dialnet.net/users/mud1/dload.htm](http://www.dialnet.net/users/mud1/dload.htm)
   * Lil (library)
 
-    ftp://ftp.actlab.utexas.edu
+    [ftp://ftp.actlab.utexas.edu](ftp://ftp.actlab.utexas.edu)
   * LIMA (library)
 
-    ftp://ftp.imaginary.com/pub/LPC/lib/
+    [ftp://ftp.imaginary.com/pub/LPC/lib/](ftp://ftp.imaginary.com/pub/LPC/lib/)
   * LPC4 (server)
 
-    ftp://ftp.lysator.liu.se/pub/lpmud/drivers/profezzorn
+    [ftp://ftp.lysator.liu.se/pub/lpmud/drivers/profezzorn](ftp://ftp.lysator.liu.se/pub/lpmud/drivers/profezzorn)
   * LPMud 2.4.5 (library)
 
-    ftp://ftp.lysator.liu.se
+    [ftp://ftp.lysator.liu.se](ftp://ftp.lysator.liu.se)
   * LPMoo (library)
 
-    ftp://ftp.ccs.neu.edu/pub/mud/mudlibs/
+    [ftp://ftp.ccs.neu.edu/pub/mud/mudlibs/](ftp://ftp.ccs.neu.edu/pub/mud/mudlibs/)
   * LPMud 3.2 (server)
 
-    ftp://ftp.nightfall.org/pub/games/lpmud
+    [ftp://ftp.nightfall.org/pub/games/lpmud](ftp://ftp.nightfall.org/pub/games/lpmud)
   * MacMUD (server)
 
-    http://www.eden.com/~hsoi/mud
+    [http://www.eden.com/~hsoi/mud](http://www.eden.com/~hsoi/mud)
   * Melville (library)
 
-    ftp://ftp.ccs.neu.edu
+    [ftp://ftp.ccs.neu.edu](ftp://ftp.ccs.neu.edu)
   * MudOS (server)
 
-    ftp://ftp.imaginary.com/pub/LPC/servers/
+    [ftp://ftp.imaginary.com/pub/LPC/servers/](ftp://ftp.imaginary.com/pub/LPC/servers/)
   * Shattered World (server)
 
-    ftp://moo.cs.rmit.edu.au/
+    [ftp://moo.cs.rmit.edu.au/](ftp://moo.cs.rmit.edu.au/)
   * TMI-2 (library)
 
-    ftp://ftp.imaginary.com/pub/LPC/lib/
+    [ftp://ftp.imaginary.com/pub/LPC/lib/](ftp://ftp.imaginary.com/pub/LPC/lib/)
          
 _________________________________________________________________
-                                      
+
 ### Help! I can't get my driver to compile, what should I do?
 
 Thanks to Rust for putting together an answer for this question.
 
 First of all, learn how to redirect stderror to a file if you don't already know how, or at least find a computer where you can cut and paste. Then, you have 3 options for getting these errors to a more experienced driver person:
- 
- * You can try The Idea Exchange a mud dedicated to mud development, where people who may be able to solve your problem, or at the very least you can post it to your target driver's newsgroup on The Idea Exchange, where they will be seen by knowlegeable people fairly quickly. In addition, for Lima specific compile problems, you can visit its support site Lima Bean (telnet://lima.imaginary.com:7878).
+
+ * You can try The Idea Exchange a mud dedicated to mud development, where people who may be able to solve your problem, or at the very least you can post it to your target driver's newsgroup on The Idea Exchange, where they will be seen by knowlegeable people fairly quickly. In addition, for Lima specific compile problems, you can visit its support site Lima Bean ([telnet://lima.imaginary.com:7878](telnet://lima.imaginary.com:7878)).
  * You can post it to rec.games.mud.lp, but don't cross post, and it probably wastes a lot more bandwidth on this newsgroup than on The Idea Exchange.
  * You can mail the maintainers of your driver:
 
-   + CD: jacob@dd.chalmers.se
-   + LPC4: hubbe@lysator.liu.se
-   + LPMud 3.2: amylaar@cs.tu-berlin.de
-   + MudOS: tim@handel.princeton.edu    
+   + CD: [jacob@dd.chalmers.se](mailto:jacob@dd.chalmers.se)
+   + LPC4: [hubbe@lysator.liu.se](mailto:hubbe@lysator.liu.se)
+   + LPMud 3.2: [amylaar@cs.tu-berlin.de](mailto:amylaar@cs.tu-berlin.de)
+   + MudOS: [tim@handel.princeton.edu](mailto:tim@handel.princeton.edu)    
 
 For MudOS or DGD help, you are most likely to get a timely response by posting to the proper newsgroup on The Idea Exchange (ie.imaginary.com 7890). For LPC4, your best bet is direct mail, for CD, either direct mail or visiting Genesis (hamal2.cs.chalmers.se 3011) and mailing Tintin et al.
 
@@ -1031,33 +1031,33 @@ _Answer from Joern Rennecke (Amylaar)_ Have you supplied the proper -p option to
 _________________________________________________________________
 
 ### How do I do ANSI colours?
- 
+
 There are several misconceptions about colours. The first misconception is that all of the world is an IBM PC using ANSI style colours. In fact, there are many different sets of escape sequences which have the same effects depending on terminal emulation. If your goal is providing colour support to players, then limiting yourself to just ANSI support is very similar to saying "Only people with IBM compat's can play my mud." Well, maybe not quite that drastic, but you get the point.
- 
+
 Also, you should keep in mind that the term ANSI has nothing to do with colours. ANSI is a standards organization, and one of the zillion things for which they have standards is escape sequences and what they do. Keep in mind that your goal is to have colours.
- 
+
 Finally, about giving your mud colour support. The Discworld Mudlib has developed a protocol now supported by at least Dead Souls, Foundation, Lima, and TMI-2. There is no reason, however, that other libs cannot add support this protocol. It enables creators to code to a single set of codes and have those codes dynamically interpreted into colours proper to the terminal emulation being used by a given player. If a certain player has no colour support, that person does not see the colour codes. For more information on this protocol, stop by The Idea Exchange at ie.imaginary.com 7890.   
 
 _________________________________________________________________
 
 ### Why not just hard code the colours?
- 
+
 There are multiple colour escape sequence protocols. Some players cannot support colour escape sequences at all. Sending colour escape sequences to people who cannot handle them, or to people who use different protocols can mess up their displays severely, making the game unplayable.
 
 _________________________________________________________________
 
 ### How to I make the mud use vi/emacs instead of ed?
- 
+
 This question gets asked constantly. When you come around to ask it, think about what exactly you want. Do you want to have vi or emacs on your mud? Or is it that you really want to have a convenient way of editing mud files (which ed certainly is not)? In truth, the real problem is the need for something more convenient than the very inconvenient ed which muds use. The kneejerk response to this need is the belief that your UNIX editing tools will solve this need. The fact is, however, there are better ways to accomplish this goal which are listed in Section III: Can I code offline?
- 
+
 Not convinced? There are the technical reasons that people often give, such as the fact that any visual editor will require character mode, which is non-trivial in the current batch of muds and very network intensive. The bottom line as to why this is not generally done is that it provides nothing, yet costs a lot.   
 
 _________________________________________________________________
 
 ### Is it possible to connect multiple muds together?
- 
+
 Is it possible? Yes.
- 
+
 Why do you want to connect muds? There are two common meanings behind this:
 
   1. Distributed mudding
@@ -1086,31 +1086,31 @@ These are the ports of which I am aware:
   * AmigaOS
 
     DGD, LPMud 3.2, 3.2.1, MudOS
-         
+    
   * Atari
 
     DGD, LPMud 3.2, 3.2.1
-         
+    
   * BeOS
 
     DGD
-         
+    
   * System 6
 
     MacMUD (which is LPMud 3.1.2), DGD
-         
+    
   * MacOS
 
     MacMUD, DGD
-         
+    
   * OS/2
 
     DGD, LPMud 3.2, 3.2.1, MudOS
-         
+    
   * Windows 95
 
     DGD, MudOS
-         
+    
   * Windows NT
 
     DGD, MudOS
@@ -1120,13 +1120,13 @@ _________________________________________________________________
 ### Credits
 
 Credits for information in this FAQ beyond the information provided by the author:
- 
+
 > Abigail, Stig Bakken, Jose Corrales, Felix Croes, Joshua P. Dady, Lars Duening, Paul Gregg, Monique Girgis, Erwin Harte, Tim Hollebeek, Pelle Johansson, Andru Luvisi, Joern Rennecke, Danne A Solli, Christina Sterman-Hack, Lars Syrstad, Pekka Timonen, Linus Tolke, John Viega, Petri Virkkula
 
 _________________________________________________________________
 
 Copyright (c) 1994-1998 George Reese This document may not be reproduced outside of USENET newsgroups, ftp archives, electronic mailings, and other similar not for-profit endeavors without the express written consent of George Reese.   
 
-_________________________________________________________________                                    
+_________________________________________________________________
 
-This FAQ is maintained by George Reese, borg@imaginary.com
+This FAQ is maintained by George Reese, [borg@imaginary.com](mailto:borg@imaginary.com)
