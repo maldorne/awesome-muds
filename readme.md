@@ -147,6 +147,7 @@ Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMU
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
 - [LPMud Timeline 1979-1995](http://web.archive.org/web/20121230064031/http://www.rpgmud.com:80/lpmud_timeline.htm), by George Reese (Descartes of Borg), in the now defunct rpgmud.com (link to the *Internet Archive Wayback Machine*). [Stored in this repository](./docs/lpmuds/lpmud-timeline.md).
+- [LPMud FAQ (1995)](http://lpmuds.net/lpmud_faq.html), by George Reese (Descartes of Borg). Link to the [lpmuds.net](http://lpmuds.net/) web. Also [stored in this repository](./docs/lpmuds/lpmud-faq.md) converted to markdown.
 
 Some language documentation:
 
