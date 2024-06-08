@@ -376,6 +376,7 @@ Communication protocol. TO DO.
 ### MUD listings
 
 - [Grapevine](https://grapevine.haus/), MUD listing and web client.
+- [Vineyard](https://vineyard.haus/), MUD hosting service, listing their hosted MUDs.
 - [Game Scry](https://game-scry.online/browse/mud/?ord=popular), MUD listing.
 - [Mud Portal](http://www.mudportal.com/), MUD listing and forums.
 - [Mud Bytes](http://www.mudbytes.net/), MUD listing and forums.
