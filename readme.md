@@ -26,7 +26,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [GMCP, MSSP, MSP, ATCP, Aardwolf's 102, MSDP, MXP]
+- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [GMCP, MSSP, MCMP, MSP, ATCP, Aardwolf's 102, MSDP, MXP, MMP, Discord GMCP, GMCP Authentication]
 - [Blightmud](https://github.com/LiquidityC/Blightmud) [Linux, MacOS], [TLS, GMCP, MSDP, MCCP2]
 - [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [GMCP, MCCP, MCCP3, MSDP, MSLP, MSSP, MTTS, MMCP, NAWS, MNES]
 - [KildClient](https://www.kildclient.org) [Linux, Windows], [SSL, MCCP, MCCP2, MMCP, zChat]
@@ -313,7 +313,7 @@ There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.or
 
 #### MCMP
 
-*MUD Client Media Protocol*. A standard for loading, playing and stopping media files with MUD clients over GMCP.
+*MUD Client Media Protocol*. A standard for loading, playing and stopping media files with MUD clients over GMCP that is intended to modernise MSP.
 
 - [Mudlet documentation](https://wiki.mudlet.org/w/Standards:MUD_Client_Media_Protocol).
 
