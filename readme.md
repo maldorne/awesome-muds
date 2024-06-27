@@ -19,6 +19,7 @@ If you want to add anything to this list, please [open an issue](https://opensou
 - [Protocols](#protocols)
 - [People](#people)
 - [Community](#community)
+- [Papers](#papers)
 
 ## Clients
 
@@ -402,3 +403,6 @@ Communication protocol. TO DO.
 - [50 Years of Text Games](https://if50.substack.com/), the original content of the book about text games, first published as a newsletter in Substack, free to read.
 - [Terra Nova](https://terranova.blogs.com/terra_nova/), defunct collaborative blog for academics and professionals in game studies, focused primarily on the study of virtual worlds (2003-2014).
 
+## Papers
+
+- [Players Who Suit MUDs](https://mud.co.uk/richard/hcds.htm), a refereed paper which appeared in Volume 1, Issue 1 of the *Journal of MUD Research*, June, 1996. By Richard Bartle. Also known by its full title as "*Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs*".
