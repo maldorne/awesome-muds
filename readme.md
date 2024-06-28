@@ -217,6 +217,12 @@ Created by Greg Taylor in 2006, Samuel "Griatch" Regandell took over the project
 
 - [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia), [discussion forum](https://github.com/evennia/evennia/discussions), [Discord server](https://discord.com/invite/AJJpcRUhtF).
 
+#### CoffeeMud
+
+Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
+
+- [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud).
+
 ## Protocols 
 
 - Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). 
