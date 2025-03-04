@@ -376,6 +376,12 @@ Communication protocol. TO DO.
 - [The MUD Discord](https://discord.gg/zuz4D8s).
 - [The MUD Coders Guild](https://mudcoders.com), 2016-2020 blog and Slack community.
 
+### General Info
+
+- [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page) in fandom.com.
+- [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
+- [MUD historical society](https://github.com/mudhistoricalsociety) is a github organization with a lot of repositories of old codebases.
+
 ### Player competition
 
 - [Deathlogs](https://deathlogs.com/). MUD PvP logs.
@@ -391,12 +397,6 @@ Communication protocol. TO DO.
 - [The Mud Connector](http://www.mudconnect.com/), MUD listing.
 - [MudVerse](https://www.mudverse.com), MUD listing.
 - [MUD MSSP Stats](https://iberia.jdai.pt/mudstats/mudlist), new listing using MUDs [MSSP](#mssp) protocol information.
-
-### Links
-
-- [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page) in fandom.com.
-- [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud). Awesome list, in the same fashion as this one.
-- [MUD historical society](https://github.com/mudhistoricalsociety) is a github organization with a lot of repositories of old codebases.
 
 ### Technical Documentation
 
