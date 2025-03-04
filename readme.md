@@ -166,14 +166,14 @@ After Lars Pensjö retired from LPMud development, Joern Rennecke (Amylaar) took
 
 ##### MudOS
 
-Another group of people started working from the LPMud v3.0 in 1992, and renamed it to MudOS, which will have several versions until 2003. (_mudos.org_, its original webpage is defunct, but you can find some of the last versions in the [maldorne repository](https://github.com/maldorne/mudos), and use them with Docker). It could use sockets at mudlib level (with LPC code), which allowed to create a TCP intermud network. This protocol evolved until [Intermud 3](#Intermud).
+Another group of people started working from the LPMud v3.0 in 1992, and renamed it to MudOS, which will have several versions until 2003. (its original webpage, _mudos.org_, is defunct, but you can find some of the last versions in the [maldorne repository](https://github.com/maldorne/mudos) and use them with Docker). It could use sockets at mudlib level (with LPC code), which allowed to create a TCP intermud network. This protocol evolved until [Intermud 3](#Intermud).
 
 - [Code repository](https://github.com/maldorne/mudos) (fork).
 - [History of MudOS](./docs/lpmuds/mudos-history.md) (recovered file from some driver distributions).
 
 ##### FluffOS
 
-In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos). It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017 and 2019.
+In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos). It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
 
 - [Official code repository](https://github.com/fluffos/fluffos).
 
