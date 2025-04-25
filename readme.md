@@ -27,25 +27,25 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [GMCP, MSSP, MCMP, MSP, ATCP, Aardwolf's 102, MSDP, MXP, MMP, Discord GMCP, GMCP Authentication]
-- [Blightmud](https://github.com/LiquidityC/Blightmud) [Linux, MacOS], [TLS, GMCP, MSDP, MCCP2]
-- [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [GMCP, MCCP, MCCP3, MSDP, MSLP, MSSP, MTTS, MMCP, NAWS, MNES]
-- [KildClient](https://www.kildclient.org) [Linux, Windows], [SSL, MCCP, MCCP2, MMCP, zChat]
-- [TinyFugue](https://tinyfugue.sourceforge.net/) [Linux, MacOS, Windows], [MCCP]
-- [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [Linux, MacOS, Windows], [GMCP, ATCP]
-- [AxMud](https://axmud.sourceforge.io/) [Linux, Windows], [MXP, GMCP, MSDP, MNES, MTTS]
-- [Tortilla MUD client](https://github.com/tmud/tortilla) (completely in russian) [Windows XP and above, Linux and MacOS via Wine], [MCCP, MSDP, MTTS]
-- [KBTin](https://github.com/kilobyte/kbtin) (Tintin++ fork) [Linux, MacOS, BSD] [MCCP, TLS]
+- [Mudlet](https://www.mudlet.org/) [Linux, MacOS, Windows], [`GMCP`, `MSSP`, `MCMP`, `MSP`, `ATCP`, `Aardwolf's 102`, `MSDP`, `MXP`, `MMP`, `Discord GMCP`, GMCP Authentication]
+- [Blightmud](https://github.com/LiquidityC/Blightmud) [Linux, MacOS], [`TLS`, `GMCP`, `MSDP`, `MCCP2`]
+- [Tintin++](https://tintin.mudhalla.net/) [Android, iOS, Linux, MacOS, Windows] [`GMCP`, `MCCP`, `MCCP3`, `MSDP`, `MSLP`, `MSSP`, `MTTS`, `MMCP`, `NAWS`, `MNES`]
+- [KildClient](https://www.kildclient.org) [Linux, Windows], [`SSL`, `MCCP`, `MCCP2`, `MMCP`, `zChat`]
+- [TinyFugue](https://tinyfugue.sourceforge.net/) [Linux, MacOS, Windows], [`MCCP`]
+- [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) [Linux, MacOS, Windows], [`GMCP`, `ATCP`]
+- [AxMud](https://axmud.sourceforge.io/) [Linux, Windows], [`MXP`, `GMCP`, `MSDP`, `MNES`, `MTTS`]
+- [Tortilla MUD client](https://github.com/tmud/tortilla) (completely in russian) [Windows XP and above, Linux and MacOS via Wine], [`MCCP`, `MSDP`, `MTTS`]
+- [KBTin](https://github.com/kilobyte/kbtin) (Tintin++ fork) [Linux, MacOS, BSD] [`MCCP`, `TLS`]
 
 ### Windows
 
 - [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient)
-- [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) [MXP, MSP, MCP, MCCP, ATCP]
-- [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) [MXP, MCP, MCCP]
+- [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) [`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
+- [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) [`MXP`, `MCP`, `MCCP`]
 - [zMUD 3.62](http://forums.zuggsoft.com/index.php?page=4&action=file&file_id=18) (last free version of zMUD, very old, unmaintained)
 - [Portal](http://gameaxle.com/)
-- [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [MXP, MCCP, MMCP, MTTS]
-- [BeipMU](https://beipdev.github.io/BeipMU/) [TLS, MCMP]
+- [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) [`MXP`, `MCCP`, `MMCP`, `MTTS`]
+- [BeipMU](https://beipdev.github.io/BeipMU/) [`TLS`, `MCMP`]
 - [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) has updated windows versions)
 - [GMud32](https://valiant8086.com/games/muds/gmud/) (very old, unmaintained)
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (generic telnet and ssh client, without MUD features)
@@ -53,32 +53,32 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 ### MacOS
 
 - [Atlantis](https://riverdark.net/atlantis/)
-- [MudClient.app](https://mudclient.app/) (free trial, paid app) [MCCP]
+- [MudClient.app](https://mudclient.app/) (free trial, paid app) [`MCCP`]
 
 ### Linux
 
-- [GnomeMUD](https://gitlab.gnome.org/GNOME/gnome-mud) [MSP, MCCP2]
-- [KMuddy](http://www.kmuddy.com/) [MCCP, MSP, MXP]
+- [GnomeMUD](https://gitlab.gnome.org/GNOME/gnome-mud) [`MSP`, `MCCP2`]
+- [KMuddy](http://www.kmuddy.com/) [`MCCP`, `MSP`, `MXP`]
 
 ### Mobile
 
-- [BlowTorch](https://bt.happygoatstudios.com/) [Android], [MCCP]
+- [BlowTorch](https://bt.happygoatstudios.com/) [Android], [`MCCP`]
 - [MUDRammer](https://github.com/splinesoft/MUDRammer) [iOS]
 
 ### Abandoned projects
 
 Links to old abandoned open source mud client projects, maybe something useful in there:
 
-- [MudWalker](http://mudwalker.cubik.org/) (unmaintained, abandoned) [MacOS] [MCP]
-- [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained, abandoned) [Linux, MacOS, Windows] [MCCP]
+- [MudWalker](http://mudwalker.cubik.org/) (unmaintained, abandoned) [MacOS] [`MCP`]
+- [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained, abandoned) [Linux, MacOS, Windows] [`MCCP`]
 - [Lyntin](https://lyntin.sourceforge.net/) (unmaintained, abandoned) [Made in Python, probably multiplatform]
 - [XpertMud](https://xpertmud.sourceforge.net/) (unmaintained, abandoned) [Linux, Windows]
 
 ### Web Clients
 
-- [MudPortal](https://github.com/plamzi/MUDPortal-Web-App) (web client and proxy server ws/telnet) [MCCP, MXP, MSDP, GMCP, ATCP, MTTS]
+- [MudPortal](https://github.com/plamzi/MUDPortal-Web-App) (web client and proxy server ws/telnet) [`MCCP`, `MXP`, `MSDP`, `GMCP`, `ATCP`, `MTTS`]
 - [mud-web-client](https://github.com/maldorne/mud-web-proxy/) (fork from MudPortal, just the web client, updated to allow wss)
-- Mudslinger ([fork](https://github.com/ryanberckmans/mudslinger), [fork](https://github.com/Xiija/mudslinger)) (original code seems to be gone, the links are forks) (web client and proxy server) [MXP]
+- Mudslinger ([fork](https://github.com/ryanberckmans/mudslinger), [fork](https://github.com/Xiija/mudslinger)) (original code seems to be gone, the links are forks) (web client and proxy server) [`MXP`]
 - [Grapevine](https://github.com/oestrich/grapevine)
 - [DecafMUD](https://github.com/stendec/DecafMUD/) (very old, unmaintained)
 
