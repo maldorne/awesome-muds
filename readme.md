@@ -226,6 +226,9 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 ## Protocols 
 
+- [Mud Standards](https://mudstandards.org/) ([archive.org](https://web.archive.org/web/*/https://mudstandards.org/))
+- [Last Outpost Protocol Archive](https://www.last-outpost.com/LO/protocols/) ([archive.org](https://web.archive.org/web/*/https://www.last-outpost.com/LO/protocols/))
+- [MudVault - MUD Protocol Reference](https://mudvault.org/protocols) ([archive.org](https://web.archive.org/web/*/https://mudvault.org/protocols))
 - Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). 
 - The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
 - CryoSphere MUD has a [page about MUD client/server interaction](http://cryosphere.net/mud-protocol.html) with some more useful information.
