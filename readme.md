@@ -228,7 +228,7 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 - Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/). 
 - The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
-- CryoSphere MUD has a [page about MUD client/server interaction](http://cryosphere.net/mud-protocol.html) with some more useful information.
+- CryoSphere MUD has a [page about MUD client/server interaction](https://musicmud.org/mud-protocol.html) with some more useful information.
 
 ### Generic protocols for remote connections
 
