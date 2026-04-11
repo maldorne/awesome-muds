@@ -195,6 +195,44 @@ Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dwork
 - [Official code repository](https://github.com/dworkin/dgd).
 - [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/), book about LPC for DGD written by [Noah Gibbs](https://codefol.io/).
 
+#### Mudlibs
+
+An LPMud is split in two layers: the [driver](#drivers) above — a C-level interpreter/VM — and the **mudlib**, the game framework written in LPC and executed by the driver. A single driver can host many different mudlibs, and historically mudlibs have been shared, forked, and cross-pollinated far more often than drivers. Understanding this split is key to reading LP-family history: when people say *"LPMud"*, they can mean the driver, a specific mudlib, or the whole ecosystem.
+
+Some of the most influential mudlibs:
+
+##### 2.4.5
+
+The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs.
+
+- Versions archived in the [MUDBytes LPMud archive](http://mudbytes.net/files/tags/LPMud/).
+
+##### TMI-2
+
+*The Mud Institute* mudlib. Educational codebase built to teach LPC and mudlib design, widely used during the 1990s as a starting point for new games.
+
+##### Nightmare
+
+Classic mudlib descended from 2.4.5, itself the ancestor of [Lima](#lima) and a common base for 1990s-era LP games.
+
+##### Lima
+
+Forked from Nightmare, Lima introduced a more modern object model and became one of the most widely adopted LP mudlibs, with forks still maintained today on top of FluffOS and LDMud.
+
+##### Dead Souls
+
+Modern general-purpose mudlib descended from the Nightmare/Lima line, originally developed by Descartes of Borg. Frequently used as a ready-to-run starting point on FluffOS.
+
+- [Code repository](https://github.com/wodan58/Dead-Souls).
+
+##### Discworld
+
+The mudlib powering [Discworld MUD](http://discworld.starturtle.net), running since 1991 and one of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked out of Discworld's driver development to support it.
+
+##### Nanny
+
+The mudlib of [NannyMUD](https://www.lysator.liu.se/nanny/), historically significant as the home of much of the canonical LPC tutorial material linked [above](#lpmud).
+
 ### DikuMUD
 
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.  
