@@ -374,11 +374,17 @@ Communication protocol. TO DO.
 
 ## People
 
+This section includes some of the people already mentioned in the previous sections, but also some others that are important in the history of MUDs. It will be expanded in the future, help is welcome!
+
 - Roy Trubshaw, co-creator of [MUD1](#MUD1).
 - [Richard Bartle](https://en.wikipedia.org/wiki/Richard_Bartle), co-creator of [MUD1](#MUD1), writer of [Designing Virtual Worlds](https://mud.co.uk/dvw/). [Personal page](https://mud.co.uk/).
 - [Alan Cox](https://en.wikipedia.org/wiki/Alan_Cox_(computer_programmer)), co-creator of [AberMUD](#AberMUD) and Linux kernel maintainer for several years.
 - [Michael Seifert](https://en.wikipedia.org/wiki/Michael_Seifert_(programmer)), co-creator of [DikuMUD](#DikuMUD).
 - [Pavel Curtis](https://en.wikipedia.org/wiki/Pavel_Curtis), creator of LambdaMOO.
+- [Lars Pensjö](https://mud.fandom.com/wiki/Lars_Pensj%C3%B6), creator of [LPMud](https://en.wikipedia.org/wiki/LPMud).
+- Lars Düning, creator of [LDMud](https://en.wikipedia.org/wiki/LDMud).
+- Felix 'Dworkin' Croes, creator of [DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver).
+- [John Radoff](https://en.wikipedia.org/wiki/Jon_Radoff), creator of [Legends of Future Past](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
 
 ## Community
 
