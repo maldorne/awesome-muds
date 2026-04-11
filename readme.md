@@ -197,7 +197,7 @@ Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dwork
 
 #### Mudlibs
 
-An LPMud is split in two layers: the [driver](#drivers) above — a C-level interpreter/VM — and the **mudlib**, the game framework written in LPC and executed by the driver. A single driver can host many different mudlibs, and historically mudlibs have been shared, forked, and cross-pollinated far more often than drivers. Understanding this split is key to reading LP-family history: when people say *"LPMud"*, they can mean the driver, a specific mudlib, or the whole ecosystem.
+An LPMud is split in two layers: the [driver](#drivers) above — an interpreter/VM written in a systems language (usually C or C++) — and the **mudlib**, the game framework written in LPC and executed by the driver. A single driver can host many different mudlibs, and historically mudlibs have been shared, forked, and cross-pollinated far more often than drivers. Understanding this split is key to reading LP-family history: when people say *"LPMud"*, they can mean the driver, a specific mudlib, or the whole ecosystem.
 
 Some of the most influential mudlibs:
 
