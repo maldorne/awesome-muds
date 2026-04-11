@@ -224,6 +224,13 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 - [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud).
 
+
+#### Legends of Future Past
+
+Originally created by [Jon Radoff](https://metavert.io) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
+
+- [Github project](https://github.com/jonradoff/lofp), [play free](https://lofp.metavert.io), [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+
 ## Protocols 
 
 - [Mud Standards](https://mudstandards.org/)
