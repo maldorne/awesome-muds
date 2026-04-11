@@ -259,6 +259,18 @@ Displays both client and server side text interfaces.
 
 *Negotiate About Window Size*. Sends the mud client's window size to the server. [RFC 1073](https://www.rfc-editor.org/rfc/rfc1073).
 
+#### TTYPE
+
+*Terminal Type*. Telnet option that lets clients advertise their terminal type to the server. Used by MUDs for client identification and feature negotiation; [MTTS](#mtts) extends TTYPE to carry a bitfield of MUD-specific client capabilities. [RFC 1091](https://www.rfc-editor.org/rfc/rfc1091).
+
+#### CHARSET
+
+Telnet option for negotiating the character encoding (latin1, UTF-8, etc.) used over a connection. Increasingly relevant as modern clients move from latin1 to UTF-8. [RFC 2066](https://www.rfc-editor.org/rfc/rfc2066).
+
+#### EOR / GA
+
+*End of Record* and *Go Ahead*. Telnet markers used to signal the end of a prompt line so clients can distinguish prompts from ongoing output. Historically MUDs relied on GA, but many now suppress it (SGA, [RFC 858](https://www.rfc-editor.org/rfc/rfc858)) and send EOR ([RFC 885](https://www.rfc-editor.org/rfc/rfc885)) instead. Most modern MUD clients support both.
+
 ### Specific protocols for MUDs
 
 There are two **RFCs** about telnet negotiation: [854](https://www.rfc-editor.org/rfc/rfc854.html) and [855](https://www.rfc-editor.org/rfc/rfc855.html). Some of the next protocols are implemented as telnet options, expanding on these two.
@@ -370,7 +382,26 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 #### Intermud
 
-Communication protocol. TO DO.
+Family of protocols for cross-MUD communication: shared chat channels, player-to-player messages, who lists, and mail between different MUDs. Several incompatible variants exist, each tied historically to a different MUD family.
+
+##### Intermud 3 (I3)
+
+Developed in the LPMud/MudOS world in the 1990s. Uses a network of **routers**: participating MUDs connect to a router rather than directly to each other, and the router forwards traffic to the rest of the network. Still in use — several routers remain active and many LP-family games are reachable over I3.
+
+- [Intermud 3 on MUD Wiki](https://mud.fandom.com/wiki/Intermud).
+- [LPC client implementation in the Dead Souls mudlib](https://github.com/wodan58/Dead-Souls) (reference implementation used by many LP muds).
+
+##### IMC2
+
+*Inter-MUD Communication 2*. Alternative intermud protocol developed primarily for DikuMUD derivatives (SMAUG and descendants). Peer-to-peer rather than router-based, and not interoperable with I3.
+
+- [IMC2 on MUD Wiki](https://muds.fandom.com/wiki/IMC2).
+
+##### Grapevine
+
+Modern web-based intermud replacement using WebSockets and JSON. Designed to be easy to implement from any codebase regardless of family, sidestepping the Diku/LP split of I3 and IMC2. See also the [Grapevine listing](https://grapevine.haus/) in the Community section.
+
+- [Source code](https://github.com/oestrich/grapevine).
 
 ## People
 
