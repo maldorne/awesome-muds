@@ -203,13 +203,25 @@ Some of the most influential mudlibs:
 
 | Mudlib | Notes | Source |
 |---|---|---|
-| 2.4.5 | The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs. LDMud still ships a lightly-updated copy. | [lp-245 in the LDMud repo](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) |
+| 2.4.5 | The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs [1]. | [lp-245 in the LDMud repo](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) (lightly updated to run on modern LDMud) |
 | TMI-2 | *The Mud Institute* framework mudlib. Educational codebase from the 1990s providing skeletons and examples rather than a playable world; builders were expected to do most of the world-building themselves. | No canonical home; community mirrors only |
-| Nightmare | Descended from 2.4.5; direct ancestor of Dead Souls. Development was formally ended by Descartes of Borg (George Reese) and distribution withdrawn; surviving copies are community preservation. | Community mirrors at [lpmuds.net](http://lpmuds.net/downloads.html) |
-| Lima | Independent ground-up design by Zakk Girouard, Tim Hollebeek, Greg Stein and John Viega, centred on a new centralized command parser and object model. Still maintained for [FluffOS](#fluffos). | [limalib/lima](https://github.com/limalib/lima) (the older `fluffos/lima` fork was archived in 2024) |
-| Dead Souls | General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on [FluffOS](#fluffos). | [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) |
-| Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), running since 1991; one of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib*. | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
-| Nanny | Mudlib of [NannyMUD](https://www.lysator.liu.se/nanny/), running on top of NannyMOS (a local fork of LPMud 3.1.2). Originally based on 2.4.5, but decades of in-house rewriting have removed nearly all trace of it; not packaged for external reuse. | Browseable at [lysator.liu.se/nanny](https://www.lysator.liu.se/nanny/) |
+| Nightmare | Descended from 2.4.5; direct ancestor of Dead Souls. Development was formally ended by Descartes of Borg (George Reese) and distribution withdrawn; surviving copies are community preservation [2]. | Community mirrors at [lpmuds.net](http://lpmuds.net/downloads.html) |
+| Lima | Independent ground-up design by Zakk Girouard, Tim Hollebeek, Greg Stein and John Viega, centred on a new centralized command parser and object model. Still maintained for [FluffOS](#fluffos) [3]. | [limalib/lima](https://github.com/limalib/lima) (the older `fluffos/lima` fork was archived in 2024) |
+| Dead Souls | General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on [FluffOS](#fluffos) [4]. | [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) |
+| CDlib | In-house mudlib of [Genesis LPMud](https://www.genesismud.org/) — the oldest continuously-running LPMud, started by Lars Pensjö in 1989. Paired with the matching [CD gamedriver](#cd-mud); has been reused by a handful of other LP MUDs beyond Genesis itself [5]. | [genesismud/mudlib](https://github.com/genesismud/mudlib) |
+| Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), running since 1991; one of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* [6]. | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
+
+Deliberately excluded from this table: **NannyMUD** and **Lost Souls** (Ain Soph) run on private in-house codebases that were never packaged for reuse — they are notable MUDs, not reusable mudlibs. NannyMUD's lasting contribution to the LP world is documentation, not code: the canonical LPC tutorials by George Reese linked [above](#lpmud) are hosted there. **Final Realms** is a descendant of Discworld rather than a predecessor, and its mudlib is a single-game codebase [7].
+
+**References:**
+
+1. LDMud's `mud/lp-245` [README](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) describes it as "the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer".
+2. Descartes of Borg, *End of Nightmare Mudlib Development*, [rec.games.mud.lp](https://groups.google.com/g/rec.games.mud.lp/c/WgoZfrIOhxI).
+3. Lima mudlib project site at [limamudlib.dev](https://www.limamudlib.dev/); maintained repo at [limalib/lima](https://github.com/limalib/lima); the earlier [fluffos/lima](https://github.com/fluffos/lima) was archived read-only in October 2024.
+4. [Dead Souls Mudlib](https://mud.fandom.com/wiki/Dead_Souls_Mudlib) on the MUD Wiki; repo README at [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) credits "Cratylus @ Dead Souls" with the lib "based on Descartes @ Nightmare".
+5. [Genesis LPMud](https://en.wikipedia.org/wiki/Genesis_LPMud) on Wikipedia; [genesismud/mudlib](https://github.com/genesismud/mudlib) repo describes itself as "the mudlib upon which Genesis and a few other muds run".
+6. [Distribution mudlib](https://dwwiki.mooo.com/wiki/Distribution_mudlib) on the Discworld MUD wiki; see also the official [Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
+7. [Final Realms FluffOS port](https://github.com/MudRen/FinalRealms) (repo description: "Based on Discworld").
 
 ### DikuMUD
 
