@@ -666,6 +666,7 @@ This section includes some of the people already mentioned in the previous secti
 
 - [Mudhalla](https://mudhalla.net/), home of the Tintin client, MUD listing, protocols documentation.
 - [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page). Protocols documentation.
+- [Grim Wheel](https://www.grimwheel.com/), preservation hub for MUD development resources: [Imaginary Realities](https://www.grimwheel.com/imaginary/) archives, [MUD-Dev](https://www.grimwheel.com/muddev/) mailing list archives, [Buildcraft](https://www.grimwheel.com/buildcraft/) articles, and codebase/area archives.
 
 ### Others
 
@@ -690,4 +691,5 @@ This section includes some of the people already mentioned in the previous secti
 ### Journals and ezines
 
 - [Journal of MUD Research / Journal of Virtual Environments](https://www.hayseed.net/MOO/JOVE/pastIssues.html) — Peer-reviewed academic journal, published 1996-2002. Only a few issues were produced; the first issue is archived at Brandeis/hayseed.net.
-- [Imaginary Realities](http://journal.imaginary-realities.com/) — MUD development ezine (1998-2001), 233 articles on design, coding, and administration. Also mirrored at [Grim Wheel](https://www.grimwheel.com/imaginary/).
+- [Imaginary Realities](https://www.grimwheel.com/imaginary/) — MUD development ezine (1998-2001), over 200 articles on design, coding, and administration. The original site is defunct; [Grim Wheel](https://www.grimwheel.com/) preserves the archives and links to other backups.
+- [MUD-Dev](https://www.grimwheel.com/muddev/) — Mailing list for MUD developers and administrators (1996-2006). Discussed design, implementation, and community management. Archives preserved at [Grim Wheel](https://www.grimwheel.com/muddev/) with mirrors and searchable copies.
