@@ -213,7 +213,8 @@ Some of the most influential mudlibs:
 | Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), founded in 1991 by David 'Pinkfish' Bennett. One of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* [6]. See also: [project history](https://discworld.starturtle.net/lpc/about/history.html), [mudlib info](https://discworld.starturtle.net/lpc/about/mudlib.html), [community wiki](https://dwwiki.mooo.com/). | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
 | Final Realms | FR-MUD (1991/1992), a *"Discworld-style lib"* per its own internal documentation. Opened *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch, but the preserved late-1990s source shows it progressively absorbed Discworld code over the decade [7]. | [quixadhal/fr](https://github.com/quixadhal/fr), [maldorne/frmudlib v3.5](https://github.com/maldorne/frmudlib/tree/v3.5b) |
 
-**References:**
+<details>
+<summary><strong>References</strong></summary>
 
 1. LDMud's `mud/lp-245` [README](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) describes it as "the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer".
 2. Descartes of Borg, *End of Nightmare Mudlib Development*, [rec.games.mud.lp](https://groups.google.com/g/rec.games.mud.lp/c/WgoZfrIOhxI).
@@ -221,7 +222,9 @@ Some of the most influential mudlibs:
 4. [Dead Souls Mudlib](https://mud.fandom.com/wiki/Dead_Souls_Mudlib) on the MUD Wiki; repo README at [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) credits "Cratylus @ Dead Souls" with the lib "based on Descartes @ Nightmare".
 5. [Genesis LPMud](https://en.wikipedia.org/wiki/Genesis_LPMud) on Wikipedia; [genesismud/mudlib](https://github.com/genesismud/mudlib) repo describes itself as "the mudlib upon which Genesis and a few other muds run".
 6. [Distribution mudlib](https://dwwiki.mooo.com/wiki/Distribution_mudlib) on the Discworld MUD wiki; see also the official [Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
-7. Preserved FR:Release mudlib source at [quixadhal/fr](https://github.com/quixadhal/fr) — `mudlib/net/intermud3/README` (Hamlet of WWC, Aug 1996) reads: *"This package was born on Nightmare mud... After that, it took a trip to Discworld... Thereafter, it went to Final Realms... since each DW-style lib is just a bit different"*. Discworld's mudlib release date is from Lauren Burka's [MUDline chronology](http://www.linnaean.org/~lpb/muddex/mudline.html) (1995): *"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS"*, and matches the [official Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
+7. Preserved FR:Release mudlib source at [quixadhal/fr](https://github.com/quixadhal/fr) and [maldorne/frmudlib](https://github.com/maldorne/frmudlib/tree/v3.5b) — `mudlib/net/intermud3/README` (Hamlet of WWC, Aug 1996) reads: *"This package was born on Nightmare mud... After that, it took a trip to Discworld... Thereafter, it went to Final Realms... since each DW-style lib is just a bit different"*. Discworld's mudlib release date is from Lauren Burka's [MUDline chronology](http://www.linnaean.org/~lpb/muddex/mudline.html) (1995): *"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS"*, and matches the [official Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
+
+</details>
 
 ### DikuMUD
 
