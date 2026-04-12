@@ -495,6 +495,8 @@ Modern web-based intermud replacement using WebSockets and JSON. Designed to be 
 
 - [Source code](https://github.com/oestrich/grapevine).
 
+Several other intermud protocols were developed for specific MUD families but saw limited adoption outside them: [AberChat](https://mudstandards.org/intermud/aberchat) (AberMUD), [MUSHLink](https://mudstandards.org/intermud/mushlink) (MUSH), [Circle Intermud](https://mudstandards.org/intermud/circle_intermud) (CircleMUD), [ROM Intermud](https://mudstandards.org/intermud/rom_intermud) (ROM), [Merentha Intermud](https://mudstandards.org/intermud/merentha) (Merentha), [MudNet](https://mudstandards.org/intermud/mudnet), [Arachnos](https://mudstandards.org/intermud/arachnos), and [Zebedee](https://mudstandards.org/intermud/zebedee). See [MUD Standards](https://mudstandards.org/) for documentation on these.
+
 ## People
 
 This section includes some of the people already mentioned in the previous sections, but also some others that are important in the history of MUDs. It will be expanded in the future, help is welcome!
