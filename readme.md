@@ -283,17 +283,13 @@ Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 
 
 ### Generic protocols for remote connections
 
-#### Character Mode
-
-Directly transmit the mud client's input, required for BBSes, \*NIX servers, Roguelike MUDs, and interaction with other console software.
-
 #### TELNET
 
 Connect to \*NIX servers and BBSes using TELOPT negotiations. The base telnet protocol is defined in [RFC 854](https://www.rfc-editor.org/rfc/rfc854) and [RFC 855](https://www.rfc-editor.org/rfc/rfc855); several options commonly used in MUD connections extend it:
 
 - **Binary Transmission** ([RFC 856](https://www.rfc-editor.org/rfc/rfc856)). Enables 8-bit clean data transfer, required for UTF-8, MCCP compressed streams, and any protocol that embeds raw bytes in the telnet stream.
 - **Echo** ([RFC 857](https://www.rfc-editor.org/rfc/rfc857)). Controls whether the server or client echoes typed input. MUD servers use this to suppress client-side echo during password entry.
-- **Suppress Go Ahead / SGA** ([RFC 858](https://www.rfc-editor.org/rfc/rfc858)). Suppresses the telnet GA signal; see also [EOR / GA](#eor--ga) below.
+- **Suppress Go Ahead / SGA** ([RFC 858](https://www.rfc-editor.org/rfc/rfc858)). Suppresses the telnet GA signal; see also [EOR / GA](#eor--ga) below. Enabling SGA together with Echo puts the connection in **character mode** (input transmitted character by character instead of line by line), which is the default operating mode for most MUDs.
 - **Q Method** ([RFC 1143](https://www.rfc-editor.org/rfc/rfc1143)). A state-machine approach to implementing telnet option negotiation that avoids infinite loops. Not a wire protocol but the recommended implementation strategy; referenced by the Tintin++ documentation.
 
 #### VT100
