@@ -558,6 +558,22 @@ Modern web-based intermud replacement using WebSockets and JSON. Designed to be 
 
 Several other intermud protocols were developed for specific MUD families but saw limited adoption outside them: [AberChat](https://mudstandards.org/intermud/aberchat) (AberMUD), [MUSHLink](https://mudstandards.org/intermud/mushlink) (MUSH), [Circle Intermud](https://mudstandards.org/intermud/circle_intermud) (CircleMUD), [ROM Intermud](https://mudstandards.org/intermud/rom_intermud) (ROM), [Merentha Intermud](https://mudstandards.org/intermud/merentha) (Merentha), [MudNet](https://mudstandards.org/intermud/mudnet), [Arachnos](https://mudstandards.org/intermud/arachnos), and [Zebedee](https://mudstandards.org/intermud/zebedee). See [MUD Standards](https://mudstandards.org/) for documentation on these.
 
+## Licenses
+
+Most classic MUD codebases were released under custom, non-commercial licenses written before standardized open source licenses existed. These bespoke licenses generally share two core requirements — mandatory attribution and a prohibition on making money — but each family added its own layer of restrictions, creating a chain of obligations that derivative codebases must honor. In recent years, some original authors have re-licensed under standard open source terms, and newer codebases tend to use recognized licenses from the start.
+
+### Classic MUD licenses
+
+- **DikuMUD License** (1990) — Requires creator names in the login sequence and `credits` command; prohibits any commercial use or charging for distribution; requires notifying the original authors before running a DikuMUD. As of February 2020, the original authors also made DikuMUD available under the LGPL, though derivative codebases are not automatically re-licensed. [Original license text](https://dikumud.com/dikumud-license/).
+- **Merc License** (1991) — Built on top of DikuMUD's license. Requires compliance with the Diku license and preservation of copyright notices. Notably relaxed: the Merc authors do *not* require their names in the login sequence. [License text](https://github.com/alexmchale/merc-mud/blob/master/doc/license.txt).
+- **ROM License** (~1993) — Adds to both Diku and Merc licenses. Requires a ROM credit in the login message, an unaltered `help rom` entry, email notification to the author (Russ Taylor) before opening a ROM-based MUD, and reserves exclusive use of the name "Rivers of Mud". [License text](https://github.com/rszrama/szramarom/blob/master/doc/rom.license).
+- **CircleMUD License** (1993) — Prohibits commercial use, requires attribution, and mandates compliance with the underlying Diku license. [License text](https://www.circlemud.org/license.html).
+- **LPMud Copyright** (1990) — Lars Pensjö's original copyright states that the source code "may not be used in any way whatsoever for monetary gain". Not a formal license but a non-commercial copyright notice. The [Valhalla MUD](https://en.wikipedia.org/wiki/Valhalla_(MUD)) controversy (1992) involved charging players monthly fees, which was widely seen as violating this restriction.
+
+### Modern codebases with standard licenses
+
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia) (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud) (Apache 2.0), [DGD](https://github.com/dworkin/dgd) (AGPL v3 since 2010), [FluffOS](https://github.com/fluffos/fluffos) (GPL), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma) (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3) (LGPL). The Dead Souls mudlib is notably described as public domain.
+
 ## People
 
 This section includes some of the people already mentioned in the previous sections, but also some others that are important in the history of MUDs. It will be expanded in the future, help is welcome!
