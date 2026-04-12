@@ -615,7 +615,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia) (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud) (Apache 2.0), [DGD](https://github.com/dworkin/dgd) (AGPL v3 since 2010), [FluffOS](https://github.com/fluffos/fluffos) (GPL), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma) (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3) (LGPL). The Dead Souls mudlib is notably described as public domain.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) (AGPL v3 since 2010), [FluffOS](https://github.com/fluffos/fluffos/blob/master/Copyright) (MudOS-derived copyright), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) (LGPL). The [Dead Souls](https://github.com/quixadhal/deadsouls/blob/master/License.txt) mudlib is notably described as public domain.
 
 ## People
 
