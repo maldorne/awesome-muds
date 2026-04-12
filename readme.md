@@ -298,7 +298,12 @@ Connect to \*NIX servers and BBSes using TELOPT negotiations. The base telnet pr
 
 #### VT100
 
-Displays both client and server side text interfaces.
+In MUD context, "VT100" refers to the ANSI X3.64 escape sequences originally implemented by the DEC VT100 terminal (1978). Virtually every MUD server and client uses these sequences for text color (SGR), bold, underline, cursor positioning, and screen clearing. The standard was formalized as ECMA-48 / ISO 6429; modern MUD clients like Mudlet and TinTin++ extend support to xterm 256-color and 24-bit truecolor.
+
+- [ECMA-48 Standard](https://ecma-international.org/publications-and-standards/standards/ecma-48/) — the formal standard defining control functions and escape sequences.
+- [TinTin++ VT100 Reference](https://mudhalla.net/tintin/info/vt100/) — MUD-oriented reference covering control characters, escape sequences, and CSI codes.
+- [TinTin++ ANSI Color Guide](https://mudhalla.net/tintin/info/ansicolor/) — ANSI 16-color, 256-color, and truecolor syntax with MUD client support notes.
+- [TinTin++ 256 Color Reference](https://mudhalla.net/tintin/info/256color/) — xterm 256-color palette details, escape syntax, and client detection methods.
 
 #### NAWS
 
