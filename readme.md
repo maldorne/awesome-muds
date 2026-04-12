@@ -630,6 +630,21 @@ This section includes some of the people already mentioned in the previous secti
 - [50 Years of Text Games](https://if50.substack.com/), the original content of the book about text games, first published as a newsletter in Substack, free to read.
 - [Terra Nova](https://terranova.blogs.com/terra_nova/), defunct collaborative blog for academics and professionals in game studies, focused primarily on the study of virtual worlds (2003-2014).
 
-## Papers
+## Papers and reading list
 
-- [Players Who Suit MUDs](https://mud.co.uk/richard/hcds.htm), a refereed paper which appeared in Volume 1, Issue 1 of the *Journal of MUD Research*, June, 1996. By Richard Bartle. Also known by its full title as "*Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs*".
+### Papers
+
+- [Interactive Multi-User Computer Games](https://mud.co.uk/richard/imucg.htm), by Richard Bartle, 1990. Early British Telecom report on the commercial potential of multi-user online games, written by MUD's co-creator.
+- [Mudding: Social Phenomena in Text-Based Virtual Realities](https://www.hayseed.net/MOO/curtis_mudding.article.txt), by Pavel Curtis, 1992. Xerox PARC paper by the creator of LambdaMOO examining social behavior in MUDs.
+- [A Rape in Cyberspace](http://www.juliandibbell.com/articles/a-rape-in-cyberspace/), by Julian Dibbell, 1993. Landmark *Village Voice* article about a virtual assault on LambdaMOO and the social/governance questions it raised.
+- [Cultural Formations in Text-Based Virtual Realities](http://www.aluluei.com/cult-form.htm), by Elizabeth Reid, 1994. Master's thesis (University of Melbourne) studying how culture emerges in MUD communities.
+- [Players Who Suit MUDs](https://mud.co.uk/richard/hcds.htm), by Richard Bartle, 1996. Taxonomy of player types; appeared in Volume 1, Issue 1 of the *Journal of MUD Research*. Also known as *"Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs"*.
+
+### Books
+
+- [Designing Virtual Worlds](https://mud.co.uk/richard/DesigningVirtualWorlds.pdf), by Richard Bartle, 2003. Comprehensive textbook on virtual world design, from MUD history to game mechanics. Available as a free PDF (CC BY-NC-ND 4.0).
+
+### Journals and ezines
+
+- [Journal of MUD Research / Journal of Virtual Environments](https://www.hayseed.net/MOO/JOVE/v1n1jove.html) — Peer-reviewed academic journal, published 1996-2002. Only a few issues were produced; the first issue is archived at Brandeis/hayseed.net.
+- [Imaginary Realities](http://journal.imaginary-realities.com/) — MUD development ezine (1998-2001), 233 articles on design, coding, and administration. Also mirrored at [Grim Wheel](https://www.grimwheel.com/imaginary/).
