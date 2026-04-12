@@ -94,6 +94,7 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 - [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
 - [Online World Timeline](https://www.raphkoster.com/gaming/mudtimeline.shtml) on Raph Koster's web page, shows a chronology of everything related to online worlds, including MUDs.
+- [MUDline](http://www.linnaean.org/~lpb/muddex/mudline.html), a detailed chronology of MUD events by Lauren Burka (1995).
 
 ### MUD1
 
@@ -145,7 +146,7 @@ Written by Stephen White in 1990, derived from TinyMUCK, with object oriented de
 
 ### LPMud
 
-Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the *driver/interpreter*, trying to make the process of extending the game easier, separating the Mud in two different parts: the **driver** which acts as a *virtual machine/interpreter/runtime* (programmed in C), and the **mudlib** which implements the game code (programmed in LPC and executed by the *driver*). Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [NannyMUD](https://www.lysator.liu.se/nanny/), [Discworld](http://discworld.starturtle.net), etc.
+Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the *driver/interpreter*, trying to make the process of extending the game easier, separating the Mud in two different parts: the **driver** which acts as a *virtual machine/interpreter/runtime* (programmed in C), and the **mudlib** which implements the game code (programmed in LPC and executed by the *driver*). Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [Discworld](http://discworld.starturtle.net), etc.
 
 - [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
 - [LPMud Timeline 1979-1995](http://web.archive.org/web/20121230064031/http://www.rpgmud.com:80/lpmud_timeline.htm), by George Reese (Descartes of Borg), in the now defunct rpgmud.com (link to the *Internet Archive Wayback Machine*). [Stored in this repository](./docs/lpmuds/lpmud-timeline.md).
@@ -209,9 +210,9 @@ Some of the most influential mudlibs:
 | Lima | Independent ground-up design by Zakk Girouard, Tim Hollebeek, Greg Stein and John Viega, centred on a new centralized command parser and object model. Still maintained for [FluffOS](#fluffos) [3]. | [limalib/lima](https://github.com/limalib/lima) (the older `fluffos/lima` fork was archived in 2024) |
 | Dead Souls | General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on [FluffOS](#fluffos) [4]. | [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) |
 | CDlib | In-house mudlib of [Genesis LPMud](https://www.genesismud.org/) — the oldest continuously-running LPMud, started by Lars Pensjö in 1989. Paired with the matching [CD gamedriver](#cd-mud); has been reused by a handful of other LP MUDs beyond Genesis itself [5]. | [genesismud/mudlib](https://github.com/genesismud/mudlib) |
-| Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), running since 1991; one of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* [6]. | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
+| Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), founded in 1991 by David 'Pinkfish' Bennett. One of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* [6]. See also: [project history](https://discworld.starturtle.net/lpc/about/history.html), [mudlib info](https://discworld.starturtle.net/lpc/about/mudlib.html), [community wiki](https://dwwiki.mooo.com/). | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
 
-Deliberately excluded from this table: **NannyMUD** and **Lost Souls** (Ain Soph) run on private in-house codebases that were never packaged for reuse — they are notable MUDs, not reusable mudlibs. NannyMUD's lasting contribution to the LP world is documentation, not code: the canonical LPC tutorials by George Reese linked [above](#lpmud) are hosted there. **Final Realms (FR-MUD)** opened in 1991/1992, *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; but the preserved late-1990s FR source progressively absorbed Discworld code over the decade — its own internal documentation describes it as a *"Discworld-style lib"* — and it was never packaged as a general-purpose distribution [7].
+Deliberately excluded from this table: **Lost Souls** (Ain Soph) runs on a private in-house codebase that was never packaged for reuse — it is a notable MUD, not a reusable mudlib. **Final Realms (FR-MUD)** opened in 1991/1992, *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; but the preserved late-1990s FR source progressively absorbed Discworld code over the decade — its own internal documentation describes it as a *"Discworld-style lib"* — and it was never packaged as a general-purpose distribution [7].
 
 **References:**
 
@@ -443,6 +444,7 @@ This section includes some of the people already mentioned in the previous secti
 - [Lars Pensjö](https://mud.fandom.com/wiki/Lars_Pensj%C3%B6), creator of [LPMud](https://en.wikipedia.org/wiki/LPMud).
 - Lars Düning, creator of [LDMud](https://en.wikipedia.org/wiki/LDMud).
 - Felix 'Dworkin' Croes, creator of [DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver).
+- David 'Pinkfish' Bennett, founder of [Discworld MUD](http://discworld.starturtle.net) (1991) and lead developer of the Discworld mudlib. [Discworld history](https://discworld.starturtle.net/lpc/about/history.html).
 - [John Radoff](https://en.wikipedia.org/wiki/Jon_Radoff), creator of [Legends of Future Past](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
 
 ## Community
