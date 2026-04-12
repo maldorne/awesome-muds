@@ -333,9 +333,10 @@ The following MUD-specific protocols are implemented as telnet options, building
 
 #### MCP
 
-*Mud Client Protocol*. An attempt to provide a standard message format on which to build MUD-based client-server applications.
+*Mud Client Protocol*. An attempt to provide a standard message format on which to build MUD-based client-server applications, primarily used in MOO environments.
 
 - [LambdaMOO documentation](http://www.moo.mud.org/mcp/index.html).
+- [MCP 2.1 specification](https://www.moo.mud.org/mcp2/mcp2.html).
 
 #### MCCP
 
@@ -349,6 +350,7 @@ The following MUD-specific protocols are implemented as telnet options, building
 *Mud Server Data Protocol*. MSDP is implemented as a Telnet option. Developed in 2009, provides a standardized way to define typeless variables, arrays, tables, and commands. MSDP over [GMCP](#gmcp) offers standardized generic event handling besides sending structured data.
 
 - [Tintin documentation](https://tintin.mudhalla.net/protocols/msdp/).
+- [Mudlet supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) (includes MSDP section).
 
 #### MSLP
 
@@ -368,6 +370,7 @@ The following MUD-specific protocols are implemented as telnet options, building
 *Mud Terminal Type Standard*. Transparant and straight forward standard for Mud Clients to communicate their terminal capabilities. See also [MNES](#mnes).
 
 - [Tintin documentation](https://tintin.mudhalla.net/protocols/mtts/).
+- [Mudlet supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) (includes MTTS section).
 
 #### MMCP
 
@@ -377,14 +380,14 @@ The following MUD-specific protocols are implemented as telnet options, building
 
 #### MXP
 
-*MUD eXtension Protocol*.
+*MUD eXtension Protocol*. MXP embeds HTML-like tags in MUD output, allowing servers to send clickable links, inline images, custom elements, and styled text to supporting clients. It is negotiated via Telnet subnegotiation and defines both built-in elements (like `<A>` for hyperlinks and `<SEND>` for clickable commands) and server-defined custom elements. See also [Pueblo](#pueblo) for an earlier, similar approach.
 
 - [Zuggsoft specification](http://www.zuggsoft.com/zmud/mxp.htm). 
 - [MUSHclient complimentary notes](http://www.gammon.com.au/mushclient/mxp.htm).
 
 #### MSP
 
-*MUD Sound Protocol*.
+*MUD Sound Protocol*. MSP uses special trigger sequences embedded in MUD output (`!!SOUND()` and `!!MUSIC()`) to instruct supporting clients to play sound and music files, either from a local cache or downloaded from a specified URL. Largely superseded by [MCMP](#mcmp), which provides richer media control over GMCP.
 
 - [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
 
@@ -426,9 +429,52 @@ Similar to ATCP, Aardwolf includes a hidden channel of information that you can 
 
 - [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
 
+#### TLS
+
+*Transport Layer Security*. Some MUD servers and clients support encrypted connections via TLS (formerly SSL). Connections typically use direct TLS on a separate port rather than STARTTLS negotiation; there is no universal port convention, though individual MUDs document their TLS port. The [MTTS](#mtts) standard includes a flag (bit 2048) to let clients advertise TLS support.
+
+- [MTTS specification](https://tintin.mudhalla.net/protocols/mtts/) (documents the SSL/TLS capability flag).
+
+#### Pueblo
+
+Developed by Chaco Communications in the mid-1990s, Pueblo extended MUD output with HTML tags for styled text, inline images, and clickable links — predating [MXP](#mxp) with a similar approach. The Pueblo client is long defunct, but some MUD servers still emit Pueblo-compatible markup and a handful of modern clients retain partial support.
+
+- [Pueblo specification](https://mudstandards.org/mud/pueblo) on MUD Standards.
+
+#### ZMP
+
+*Zenith MUD Protocol*. An out-of-band communication protocol for MUDs, designed as a simpler, more extensible alternative to [MSSP](#mssp) and [MSDP](#msdp). Uses NUL-delimited strings inside a telnet subnegotiation.
+
+- [ZMP specification](https://mudstandards.org/mud/zmp) on MUD Standards.
+
+#### Pinkfish
+
+Not a protocol but a widely-used **color code standard** in LPC MUDs, named after David 'Pinkfish' Bennett (founder of [Discworld MUD](#discworld)). Pinkfish codes use `%^COLOR%^` tokens (e.g., `%^RED%^`, `%^BOLD%^`) that the driver converts to [ANSI](#vt100) escape sequences. Used by Discworld, Dead Souls, and many other LP-family mudlibs.
+
+- [Pinkfish reference](https://mudstandards.org/other/pinkfish) on MUD Standards.
+
+#### WebSocket
+
+Not a MUD-specific protocol, but increasingly used as a transport layer alternative to raw telnet for web-based MUD clients. A WebSocket proxy (ws/wss to telnet) allows browser clients to connect to traditional MUD servers; some modern servers support WebSocket natively.
+
+- [WebSocket overview](https://mudstandards.org/websocket/) on MUD Standards.
+- See also [Web Clients](#web-clients) and [Web Proxies](#web-proxies) above.
+
 #### Intermud
 
 Family of protocols for cross-MUD communication: shared chat channels, player-to-player messages, who lists, and mail between different MUDs. Several incompatible variants exist, each tied historically to a different MUD family.
+
+##### CD Intermud
+
+The earliest LP intermud protocol, developed by the [CDlib / Genesis](#cdlib) team. Used UDP and was later superseded by [Intermud 3](#intermud-3-i3).
+
+- [CD Intermud](https://mudstandards.org/intermud/cd_intermud) on MUD Standards.
+
+##### Intermud 2 (I2)
+
+Successor to CD Intermud, still UDP-based. Added support for more message types but was superseded by [Intermud 3](#intermud-3-i3) which moved to TCP and introduced router-based architecture.
+
+- [Intermud 2](https://mudstandards.org/intermud/intermud2) on MUD Standards.
 
 ##### Intermud 3 (I3)
 
