@@ -15,11 +15,13 @@ If you want to add anything to this list, please [open an issue](https://opensou
 
 - [Clients](#clients)
 - [Codebases and drivers](#codebases-and-drivers)
+- [Notable running MUDs](#notable-running-muds)
 - [Tools](#tools)
 - [Protocols](#protocols)
+- [Licenses](#licenses)
 - [People](#people)
 - [Community](#community)
-- [Papers](#papers)
+- [Papers and reading list](#papers-and-reading-list)
 
 ## Clients
 
@@ -286,6 +288,50 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
 
 - [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp), [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+
+## Notable running MUDs
+
+A selection of historically significant MUDs that are still running or were active in 2025-2026, grouped by codebase family.
+
+### LP Family
+
+- [Genesis](https://www.genesismud.org/) (1989) — `mud.genesismud.org:3011` — The original LPMud by Lars Pensjö, oldest in its family still running.
+- [BatMUD](https://www.bat.org/) (1990) — `batmud.bat.org:23` — One of the largest LPMuds, consistently high population.
+- [Discworld MUD](http://discworld.starturtle.net) (1991) — `discworld.starturtle.net:4242` — Based on Terry Pratchett's works; influential [mudlib](#mudlibs) and birthplace of [FluffOS](#fluffos).
+- [Nanvaent](https://nanvaent.org/) (1992) — `nanvaent.org:23` — Long-running UK LPMud, migrated from MudOS to FluffOS.
+- [RetroMUD](https://retromud.org/) (1994) — `retromud.org:3000` — Massive multiclass system with 60+ races and 18 guilds.
+- [Alter Aeon](https://www.alteraeon.com/) (1995) — `alteraeon.com:3000` — Leading MUD for accessibility and visually impaired players.
+
+### Diku Family
+
+- [MUME](https://mume.org/) (1991) — `mume.org:4242` — Tolkien-licensed Middle-earth MUD; 26,000+ rooms.
+- [Realms of Despair](https://realmsofdespair.com/) (1994) — `realmsofdespair.com:4000` — The original [SMAUG](#smaug) MUD.
+- [Aardwolf](https://www.aardwolf.com/) (1996) — `aardmud.org:4000` — Largest active free MUD by player count. Huge PvE world.
+
+### Commercial
+
+- [GemStone IV](https://www.play.net/gs4/) (1988) — Simutronics. Oldest commercial MUD still running; premium subscriptions.
+- [DragonRealms](https://www.play.net/dr/) (1996) — Simutronics. Active player community.
+- [Achaea](https://www.achaea.com/) (1997) — Iron Realms. Flagship title; pioneered microtransaction model in MUDs.
+- [Aetolia](https://www.aetolia.com/) (2001) — Iron Realms. Dark vampire/werewolf-themed.
+- [Imperian](https://www.imperian.com/) (2003) — Iron Realms. Free-to-play, now in volunteer-maintained legacy mode.
+- [Lusternia](https://www.lusternia.com/) (2004) — Iron Realms. Legacy mode, volunteer team.
+- [Starmourn](https://www.starmourn.com/) (2018) — Iron Realms. Sci-fi. Maintenance mode since 2023.
+
+### RP-Focused
+
+- [Threshold RPG](https://www.thresholdrpg.com/) (1996) — `thresholdrpg.com:3333` — Oldest RP-enforced MUD still operating.
+- [Sindome](https://www.sindome.org/) (1997) — `moo.sindome.org:5555` — Cyberpunk RP MOO inspired by Neuromancer.
+- [Harshlands](http://www.harshlands.net/) (1998) — `mud.harshlands.net:5555` — Gritty low-fantasy Harn-based RP-required MUD.
+- [Legends of the Jedi](https://www.legendsofthejedi.com/) (2000) — Star Wars RP-enforced MUD (SWR/SMAUG derivative).
+
+### MOO
+
+- [LambdaMOO](https://lambda.moo.mud.org/) (1990) — `lambda.moo.mud.org:8888` — Created by Pavel Curtis at Xerox PARC; academically significant for virtual communities research. Still running on volunteers.
+
+### Other
+
+- [Avalon: The Legend Lives](https://www.avalon-rpg.com/) (1989) — Claims to be the first online RPG; pioneered real-time PvP and political systems.
 
 ## Protocols 
 
