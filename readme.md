@@ -94,7 +94,7 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 - [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
 - [Online World Timeline](https://www.raphkoster.com/gaming/mudtimeline.shtml) on Raph Koster's web page, shows a chronology of everything related to online worlds, including MUDs.
-- [MUDline](http://www.linnaean.org/~lpb/muddex/mudline.html), a detailed chronology of MUD events by Lauren Burka (1995).
+- [MUDline](http://www.linnaean.org/~lpb/muddex/mudline.html), a detailed chronology of MUD events by Lauren Burka (1995). [Stored in this repository](./docs/mudline.md).
 
 ### MUD1
 
@@ -211,8 +211,7 @@ Some of the most influential mudlibs:
 | Dead Souls | General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on [FluffOS](#fluffos) [4]. | [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) |
 | CDlib | In-house mudlib of [Genesis LPMud](https://www.genesismud.org/) — the oldest continuously-running LPMud, started by Lars Pensjö in 1989. Paired with the matching [CD gamedriver](#cd-mud); has been reused by a handful of other LP MUDs beyond Genesis itself [5]. | [genesismud/mudlib](https://github.com/genesismud/mudlib) |
 | Discworld | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), founded in 1991 by David 'Pinkfish' Bennett. One of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* [6]. See also: [project history](https://discworld.starturtle.net/lpc/about/history.html), [mudlib info](https://discworld.starturtle.net/lpc/about/mudlib.html), [community wiki](https://dwwiki.mooo.com/). | Snapshot at [Yuffster/discworld_distribution_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) |
-
-Deliberately excluded from this table: **Final Realms (FR-MUD)** opened in 1991/1992, *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; but the preserved late-1990s FR source progressively absorbed Discworld code over the decade — its own internal documentation describes it as a *"Discworld-style lib"* — and it was never packaged as a general-purpose distribution [7].
+| Final Realms | FR-MUD (1991/1992), a *"Discworld-style lib"* per its own internal documentation. Opened *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch, but the preserved late-1990s source shows it progressively absorbed Discworld code over the decade [7]. | [quixadhal/fr](https://github.com/quixadhal/fr), [maldorne/frmudlib v3.5](https://github.com/maldorne/frmudlib/tree/v3.5b) |
 
 **References:**
 
