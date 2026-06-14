@@ -311,23 +311,22 @@ A selection of historically significant MUDs that are still running or were acti
 ### LP Family
 
 - [Genesis](https://www.genesismud.org/) (1989) — `mud.genesismud.org:3011` — The original LPMud by Lars Pensjö, oldest in its family still running [1].
-- [BatMUD](https://www.bat.org/) (1990) — `batmud.bat.org:23` — One of the largest LPMuds, consistently high population [2].
+- [BatMUD](https://www.bat.org/) (1990) — `batmud.bat.org:23` — Historically one of the largest LPMuds [2].
 - [Discworld MUD](http://discworld.starturtle.net) (1991) — `discworld.starturtle.net:4242` — Based on Terry Pratchett's works; influential [mudlib](#mudlibs) and birthplace of [FluffOS](#fluffos) [3].
-- [Nanvaent](https://nanvaent.org/) (1992) — `nanvaent.org:23` — Long-running UK LPMud, migrated from MudOS to FluffOS [4].
+- [Nanvaent](https://nanvaent.org/) (1992) — `nanvaent.org:23` — Long-running UK LPMud, descended from the earlier VaxMUD; runs on MudOS [4].
 - [RetroMUD](https://retromud.org/) (1994) — `retromud.org:3000` — Massive multiclass system with 60+ races and 18 guilds [5].
-- [Alter Aeon](https://www.alteraeon.com/) (1995) — `alteraeon.com:3000` — Leading MUD for accessibility and visually impaired players [6].
 
 ### Diku Family
 
-- [MUME](https://mume.org/) (1991) — `mume.org:4242` — Tolkien-licensed Middle-earth MUD; 26,000+ rooms [7].
+- [MUME](https://mume.org/) (1991) — `mume.org:4242` — Fan-made (unlicensed) Middle-earth MUD, run by volunteers since 1991; tens of thousands of rooms [7].
 - [Realms of Despair](https://realmsofdespair.com/) (1994) — `realmsofdespair.com:4000` — The original [SMAUG](#smaug) MUD [8].
-- [Aardwolf](https://www.aardwolf.com/) (1996) — `aardmud.org:4000` — Largest active free MUD by player count. Huge PvE world [9].
+- [Aardwolf](https://www.aardwolf.com/) (1996) — `aardmud.org:4000` — One of the largest active free MUDs. Huge PvE world [9].
 
 ### Commercial
 
-- [GemStone IV](https://www.play.net/gs4/) (1988) — Simutronics. Oldest commercial MUD still running; premium subscriptions [10].
-- [DragonRealms](https://www.play.net/dr/) (1996) — Simutronics. Active player community [11].
-- [Achaea](https://www.achaea.com/) (1997) — Iron Realms. Flagship title; pioneered microtransaction model in MUDs [12].
+- [GemStone IV](https://www.play.net/gs4/) (1988) — Simutronics. Among the longest-running commercial MUDs (the GemStone franchise dates to 1988; the GemStone IV branding to 2003); premium subscriptions [10].
+- [DragonRealms](https://www.play.net/dr/) (1996) — Simutronics. The company's long-running fantasy MUD [11].
+- [Achaea](https://www.achaea.com/) (1997) — Iron Realms. Flagship title; one of the first MUDs with a microtransaction model [12].
 - [Aetolia](https://www.aetolia.com/) (2001) — Iron Realms. Dark vampire/werewolf-themed [13].
 - [Imperian](https://www.imperian.com/) (2003) — Iron Realms. Free-to-play, now in volunteer-maintained legacy mode [14].
 - [Lusternia](https://www.lusternia.com/) (2004) — Iron Realms. Legacy mode, volunteer team [15].
@@ -335,9 +334,9 @@ A selection of historically significant MUDs that are still running or were acti
 
 ### RP-Focused
 
-- [Threshold RPG](https://www.thresholdrpg.com/) (1996) — `thresholdrpg.com:3333` — Oldest RP-enforced MUD still operating [17].
+- [Threshold RPG](https://www.thresholdrpg.com/) (1996) — `thresholdrpg.com:3333` — Long-running RP-enforced MUD by Frogdice, operating since 1996 [17].
 - [Sindome](https://www.sindome.org/) (1997) — `moo.sindome.org:5555` — Cyberpunk RP MOO inspired by Neuromancer [18].
-- [Harshlands](http://www.harshlands.net/) (1998) — `mud.harshlands.net:5555` — Gritty low-fantasy Harn-based RP-required MUD [19].
+- [Harshlands](http://www.harshlands.net/) (1993) — `mud.harshlands.net:5555` — Gritty low-fantasy Harn-based RP-required MUD [19].
 - [Legends of the Jedi](https://www.legendsofthejedi.com/) (2000) — Star Wars RP-enforced MUD (SWR/SMAUG derivative) [20].
 
 ### MOO
@@ -347,30 +346,31 @@ A selection of historically significant MUDs that are still running or were acti
 ### Other
 
 - [Avalon: The Legend Lives](https://www.avalon-rpg.com/) (1989) — Claims to be the first online RPG; pioneered real-time PvP and political systems [22].
+- [Alter Aeon](https://www.alteraeon.com/) (1995) — `alteraeon.com:3000` — Long-running fantasy MUD on a custom from-scratch codebase (DentinMud), still actively played after ~30 years. Also well known for strong accessibility support for blind and visually-impaired players [6].
 
 <details>
 <summary><strong>References</strong></summary>
 
-1. [Genesis LPMud](https://en.wikipedia.org/wiki/Genesis_LPMud) on Wikipedia.
+1. [LPMud](https://en.wikipedia.org/wiki/LPMud) on Wikipedia (covers Genesis as the first LPMud; the "Genesis LPMud" title redirects here).
 2. [BatMUD](https://en.wikipedia.org/wiki/BatMUD) on Wikipedia.
 3. [Discworld MUD](https://en.wikipedia.org/wiki/Discworld_MUD) on Wikipedia.
-4. [Nanvaent](https://mudstats.com/World/Nanvaent) on MUDStats.
-5. [RetroMUD](https://muds.fandom.com/wiki/RetroMUD) on MUD Wiki.
-6. [Alter Aeon](https://en.wikipedia.org/wiki/Alter_Aeon) on Wikipedia.
-7. [MUME](https://en.wikipedia.org/wiki/MUME) on Wikipedia.
-8. [Realms of Despair](https://en.wikipedia.org/wiki/Realms_of_Despair) on Wikipedia.
+4. [Nanvaent](https://mudstats.com/World/Nanvaent) on MUDStats (lists the driver as MudOS v22.2b14); the game's founding year (1992) is from its own site's copyright notice, with VaxMUD origins noted on [nanvaent.org/history](https://nanvaent.org/history/).
+5. [RetroMUD](https://mudstats.com/World/RetroMUD) on MUDStats (the in-game banner confirms the TMI-2/LIMA base and the race/guild counts are listed on [retromud.org](https://www.retromud.org/)).
+6. [Alter Aeon](https://audiogames.net/db.php?id=Alter+Aeon) in the AudioGames.net database (the main independent community resource for blind/visually-impaired gamers); the MUD's own [blind/accessibility support page](https://www.alteraeon.com/blind_support.html) documents the screen-reader features and soundpacks.
+7. [Middle-earth in video games § Unofficial games](https://en.wikipedia.org/wiki/Middle-earth_in_video_games#Unofficial_games) on Wikipedia (lists MUME among unofficial/unlicensed games; the "MUME" title redirects here). The in-game login banner reads "Adapted from J.R.R. Tolkien's Middle-earth world".
+8. [DikuMUD § SMAUG](https://en.wikipedia.org/wiki/DikuMUD#SMAUG) on Wikipedia (the "Realms of Despair" title redirects here); the in-game banner confirms "Home of SMAUG ... Code by Thoric (Derek Snider)".
 9. [Aardwolf MUD](https://mudstats.com/World/AardwolfMUD) on MUDStats.
 10. [GemStone IV](https://en.wikipedia.org/wiki/GemStone_IV) on Wikipedia.
-11. [DragonRealms](https://en.wikipedia.org/wiki/DragonRealms) on Wikipedia.
+11. [Simutronics](https://en.wikipedia.org/wiki/Simutronics) on Wikipedia (covers DragonRealms, 1996; the "DragonRealms" title redirects here).
 12. [Achaea, Dreams of Divine Lands](https://en.wikipedia.org/wiki/Achaea,_Dreams_of_Divine_Lands) on Wikipedia.
-13. [Aetolia, the Midnight Age](https://muds.fandom.com/wiki/Aetolia,_the_Midnight_Age) on MUD Wiki.
-14. [Imperian](https://muds.fandom.com/wiki/Imperian) on MUD Wiki.
-15. [Lusternia](https://en.wikipedia.org/wiki/Lusternia) on Wikipedia.
-16. [Starmourn](https://muds.fandom.com/wiki/Starmourn) on MUD Wiki.
-17. [Threshold RPG](https://muds.fandom.com/wiki/Threshold_RPG) on MUD Wiki.
+13. [Aetolia](https://muds.fandom.com/wiki/Aetolia) on the Muds Wiki.
+14. [Imperian](https://www.ironrealms.com/games/imperian) on Iron Realms.
+15. [Lusternia](https://www.ironrealms.com/games/lusternia) on Iron Realms (the Wikipedia "Lusternia" title redirects to the Iron Realms Entertainment article).
+16. [Starmourn](https://www.ironrealms.com/games/starmourn) on Iron Realms.
+17. [Threshold](https://muds.fandom.com/wiki/Threshold) on the Muds Wiki.
 18. [Sindome](https://muds.fandom.com/wiki/Sindome) on MUD Wiki.
-19. [Harshlands](https://muds.fandom.com/wiki/Harshlands) on MUD Wiki.
-20. [Legends of the Jedi](https://muds.fandom.com/wiki/Legends_of_the_Jedi) on MUD Wiki.
+19. [Harshlands](https://mu.fandom.com/wiki/Harshlands) on the WikiMU* wiki.
+20. [Legend of the Jedi](https://muds.fandom.com/wiki/Legend_of_the_Jedi) on the Muds Wiki.
 21. [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) on Wikipedia.
 22. [Avalon: The Legend Lives](https://en.wikipedia.org/wiki/Avalon:_The_Legend_Lives) on Wikipedia.
 
