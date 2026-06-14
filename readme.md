@@ -254,29 +254,29 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 
 | Codebase | Lineage | Notes | Source |
 |---|---|---|---|
-| CircleMUD | DikuMUD → CircleMUD | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning [1]. Abandoned in 2002; development continued as tbaMUD. | [circlemud.org](https://www.circlemud.org/) |
+| CircleMUD | DikuMUD → CircleMUD | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning [1]. Elson's last release was 3.1 (2002); later revived by The Builder Academy (3.5, 2006) and continued as tbaMUD. | [circlemud.org](https://www.circlemud.org/) |
 | tbaMUD | → CircleMUD → tbaMUD | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development [2]. Active. | [tbamud/tbamud](https://github.com/tbamud/tbamud) |
 | AwakeMUD | → CircleMUD → AwakeMUD | Shadowrun 3rd Edition themed derivative [3]. Active. | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD), [web](https://www.awakemud.com/) |
 | EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics [4]. Active. | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) |
 | Merc | DikuMUD → Merc | Created by Furey, Hatchet, and Kahn in 1992. Major rewrite that became the ancestor of most other Diku derivatives [5]. Abandoned. | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus) |
-| Envy | → Merc → Envy | By Kahn and Hatchet (1994). Added races, improved combat, OLC [5]. Abandoned. | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus) |
-| ROM | → Merc → ROM | *Rivers of MUD*, by Russ Taylor (1993). Added skills/spells system, pets, improved world format [6]. Hugely influential; spawned countless downstream MUDs. Abandoned (last release 2.4b6, 1998). | [avinson/rom24-quickmud](https://github.com/avinson/rom24-quickmud) (QuickMUD, cleaned-up ROM 2.4b6) |
-| GodWars | → Merc → ROM → GodWars | By KaVir (~1995). PvP-focused with supernatural races (vampires, werewolves, demons) [7]. Abandoned. | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus) |
+| Envy | → Merc → Envy | By much of the former Merc team plus others (1994). Bundled OLC (EnvyOLC, ported from The Isles/NiMUD) [5]. Abandoned. | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus) |
+| ROM | → Merc → ROM | *Rivers of Mud*, by Russ Taylor (1993). Added a skills/spells system and an improved world format [6]. Hugely influential; spawned countless downstream MUDs. Abandoned (last release 2.4b6, 1998). | [avinson/rom24-quickmud](https://github.com/avinson/rom24-quickmud) (QuickMUD, cleaned-up ROM 2.4b6) |
+| GodWars | → Merc → GodWars | By KaVir (Richard Woolcock, 1995). PvP-focused with supernatural races (vampires, werewolves, demons) [7]. Abandoned. | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus) |
 | SMAUG | → Merc → SMAUG | By Thoric/Derek Snider (1994-96), originally developed for [Realms of Despair](https://realmsofdespair.com/) [8]. Feature-rich with extensive OLC, [IMC2](#imc2) intermud, clan/council systems. Original abandoned, but two active forks: [SmaugFUSS](https://github.com/Arthmoor/SmaugFUSS) and [AFKMud](https://github.com/Arthmoor/AFKMud) (C++ rewrite). | [Arthmoor/SmaugFUSS](https://github.com/Arthmoor/SmaugFUSS), [Arthmoor/AFKMud](https://github.com/Arthmoor/AFKMud) |
 | SWR | → Merc → SMAUG → SWR | *Star Wars Reality*. SMAUG derivative for Star Wars themed MUDs [9]. Abandoned. | Archived at [Xavious/swrfuss](https://github.com/Xavious/swrfuss) |
 
 <details>
 <summary><strong>References</strong></summary>
 
-1. [CircleMUD](https://en.wikipedia.org/wiki/CircleMUD) on Wikipedia.
+1. Official site [circlemud.org](https://www.circlemud.org/) (confirms Jeremy Elson and the DikuMUD Gamma 0.0 derivation); version history and the tbaMUD transition on the [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) page at the Muds Wiki. The Wikipedia "CircleMUD" title now redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
 2. [tbamud/tbamud](https://github.com/tbamud/tbamud) repo README.
 3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) repo README.
 4. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) repo README.
-5. [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) on Wikipedia (Derivatives section covers Merc and Envy lineage).
-6. [ROM (MUD)](https://en.wikipedia.org/wiki/ROM_(MUD)) on Wikipedia.
+5. Lineage from the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article on Wikipedia ("Merc led to ROM ... and Envy"); authors and dates from the [Merc](https://muds.fandom.com/wiki/Merc) and [Envy](https://muds.fandom.com/wiki/Envy) pages at the Muds Wiki.
+6. [ROM](https://muds.fandom.com/wiki/ROM) on the Muds Wiki. The Wikipedia "ROM (MUD)" title redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
 7. [GodWars](https://en.wikipedia.org/wiki/GodWars) on Wikipedia.
-8. [SMAUG](https://en.wikipedia.org/wiki/SMAUG) on Wikipedia.
-9. [Star Wars Reality](https://muds.fandom.com/wiki/Star_Wars_Reality) on MUD Wiki.
+8. [SMAUG](https://muds.fandom.com/wiki/SMAUG) on the Muds Wiki. The Wikipedia "SMAUG" title is a disambiguation page, not the MUD.
+9. [SWReality](https://muds.fandom.com/wiki/SWReality) on the Muds Wiki.
 
 </details>
 
