@@ -326,18 +326,18 @@ A selection of historically significant MUDs that are still running or were acti
 
 - [GemStone IV](https://www.play.net/gs4/) (1988) — Simutronics. Among the longest-running commercial MUDs (the GemStone franchise dates to 1988; the GemStone IV branding to 2003); premium subscriptions [10].
 - [DragonRealms](https://www.play.net/dr/) (1996) — Simutronics. The company's long-running fantasy MUD [11].
-- [Achaea](https://www.achaea.com/) (1997) — Iron Realms. Flagship title; one of the first MUDs with a microtransaction model [12].
-- [Aetolia](https://www.aetolia.com/) (2001) — Iron Realms. Dark vampire/werewolf-themed [13].
-- [Imperian](https://www.imperian.com/) (2003) — Iron Realms. Free-to-play, now in volunteer-maintained legacy mode [14].
-- [Lusternia](https://www.lusternia.com/) (2004) — Iron Realms. Legacy mode, volunteer team [15].
-- [Starmourn](https://www.starmourn.com/) (2018) — Iron Realms. Sci-fi. Maintenance mode since 2023 [16].
+- [Achaea](https://www.achaea.com/) (1997) — `achaea.com:23` — Iron Realms. Flagship title; one of the first MUDs with a microtransaction model [12].
+- [Aetolia](https://www.aetolia.com/) (2001) — `aetolia.com:23` — Iron Realms. Dark vampire/werewolf-themed [13].
+- [Imperian](https://www.imperian.com/) (2003) — `imperian.com:4000` — Iron Realms. Free-to-play, now in volunteer-maintained legacy mode [14].
+- [Lusternia](https://www.lusternia.com/) (2004) — `lusternia.com:5000` — Iron Realms. Legacy mode, volunteer team [15].
+- [Starmourn](https://www.starmourn.com/) (2018) — `starmourn.com:3000` — Iron Realms. Sci-fi. Maintenance mode since 2023 [16].
 
 ### RP-Focused
 
 - [Threshold RPG](https://www.thresholdrpg.com/) (1996) — `thresholdrpg.com:3333` — Long-running RP-enforced MUD by Frogdice, operating since 1996 [17].
 - [Sindome](https://www.sindome.org/) (1997) — `moo.sindome.org:5555` — Cyberpunk RP MOO inspired by Neuromancer [18].
 - [Harshlands](http://www.harshlands.net/) (1993) — `mud.harshlands.net:5555` — Gritty low-fantasy Harn-based RP-required MUD [19].
-- [Legends of the Jedi](https://www.legendsofthejedi.com/) (2000) — Star Wars RP-enforced MUD (SWR/SMAUG derivative) [20].
+- [Legends of the Jedi](https://www.legendsofthejedi.com/) (2000) — `legendsofthejedi.com:5656` — Star Wars RP-enforced MUD (SWR/SMAUG derivative) [20].
 
 ### MOO
 
