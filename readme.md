@@ -39,6 +39,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [Tortilla MUD client](https://github.com/tmud/tortilla) (completely in russian) [Windows XP and above, Linux and MacOS via Wine], [`MCCP`, `MSDP`, `MTTS`]
 - [KBTin](https://github.com/kilobyte/kbtin) (Tintin++ fork) [Linux, MacOS, BSD], [`MCCP`, `TLS`]
 - [Sip](https://github.com/bozimmerman/Sip) [Linux, MacOS, Windows], [`MXP`, `GMCP`, `MNES`, `MSP`, `MSDP`]
+- [Mallard](https://mallard.vnsf.xyz/) [Linux, MacOS, Windows], [`TLS`, `GMCP`, `MSDP`, `MSSP`, `MCCP2`, `MXP`, `ATCP`, `MTTS`, `NAWS`]
 
 ### Windows
 
