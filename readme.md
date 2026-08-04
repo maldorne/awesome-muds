@@ -40,6 +40,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 - [KBTin](https://github.com/kilobyte/kbtin) (Tintin++ fork) [Linux, MacOS, BSD], [`MCCP`, `TLS`]
 - [Sip](https://github.com/bozimmerman/Sip) [Linux, MacOS, Windows], [`MXP`, `GMCP`, `MNES`, `MSP`, `MSDP`]
 - [Mallard](https://mallard.vnsf.xyz/) [Linux, MacOS, Windows], [`TLS`, `GMCP`, `MSDP`, `MSSP`, `MCCP2`, `MXP`, `ATCP`, `MTTS`, `NAWS`]
+- [MushTato](https://github.com/N0NJY/mushtato) [Linux, MacOS, Windows], [`TLS`, `NAWS`, `TTYPE`] (also supports SSH connections to a real shell, and sandboxed Python scripting for triggers/aliases/macros)
 
 ### Windows
 
